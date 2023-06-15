@@ -19,7 +19,7 @@ export const providerConfig: Configuration = {
     clientId: "89b2a641-5c75-4977-8daa-8431c9ae6f9e",
     authority:
       "https://login.microsoftonline.com/15831736-f1b2-4d90-91a9-a6fdc57a28cd/",
-    redirectUri: "http://localhost:3000/",
+    redirectUri: window.location.origin,
   },
   cache: {
     cacheLocation: "localStorage", // This configures where your cache will be stored
@@ -72,12 +72,12 @@ export const loginRequest: Partial<RedirectRequest> = {
 };
 
 export const logoutRequest: Partial<EndSessionRequest> = {
-  postLogoutRedirectUri: "http://localhost:3000/",
+  postLogoutRedirectUri: window.location.origin,
 };
 
 /**
  * URL of the API this app will call
  */
 export const apiConfig = {
-  apiEndpoint: "http://localhost:3001/api/users/6476b6c5ca2931de7dd4badc",
+  apiEndpoint: "https://c3-api.lemonforest-65dc29d4.southeastasia.azurecontainerapps.io/api/users/6476b6c5ca2931de7dd4badc",
 };
