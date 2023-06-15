@@ -5,21 +5,15 @@ import { apiConfig, loginRequest } from "../authConfig";
 import Profile from "./profile";
 import { useRequestApi } from "../CustomHooks/useRequestAPI";
 import { Provider } from "../CustomHooks/provider";
-import { UserModel } from "../UserModel";
-
-const EmptyUser: UserModel = {
-  username: "",
-  fullname: "",
-  timezone: "",
-};
+import { UserModel, EmptyUser } from "../UserModel";
 
 const AccessPrivateUncopedApiButton = (props: { provider: Provider }) => {
   const { instance, inProgress } = useMsal();
-  const [data, setData] = useState<UserModel>(EmptyUser);
+  const [data, setData] = useState(EmptyUser);
   const [retrieving, setRetrieving] = useState(false);
+  const [requestId, setRequestId] = useState("6476b6c5ca2931de7dd4badc");
   const requestApi = useRequestApi<UserModel>(
     props.provider,
-    apiConfig.apiEndpoint,
     (response: UserModel) => {
       setData(response);
       setRetrieving(false);
@@ -39,14 +33,26 @@ const AccessPrivateUncopedApiButton = (props: { provider: Provider }) => {
       )}
 
       {!retrieving ? (
-        <button
-          onClick={() => {
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
             setRetrieving(true);
-            requestApi();
+            requestApi(apiConfig.apiEndpoint + requestId);
           }}
         >
-          Send Request
-        </button>
+          <label>
+            Search for ID:{" "}
+            <input
+              name="id"
+              defaultValue={requestId}
+              onChange={(e) => setRequestId(e.target.value)}
+              size={23}
+              style={{ verticalAlign: 2.5 }}
+            />
+          </label>
+          <hr />
+          <button type="submit">Send Request</button>
+        </form>
       ) : (
         <h5 className="card-title">Loading...</h5>
       )}

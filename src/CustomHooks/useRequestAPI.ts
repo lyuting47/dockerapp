@@ -29,7 +29,6 @@ async function callApi<T>(
 
 export function useRequestApi<T>(
   provider: Provider,
-  apiEndpoint: string,
   fn: (response: T) => void,
   account: AccountInfo | null,
   loginRequest?: Partial<RedirectRequest>
@@ -37,7 +36,7 @@ export function useRequestApi<T>(
   const { instance } = useMsal();
   // const { loginWithRedirect, getAccessTokenSilently, logout } = useAuth0();
 
-  function requestApi() {
+  function requestApi(apiEndpoint: string) {
     if (provider === Provider.AZURE) {
       if (!account) {
         throw Error("No active account set");
