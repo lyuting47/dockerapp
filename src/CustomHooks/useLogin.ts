@@ -18,6 +18,7 @@ export function useLogin(
     if (provider === Provider.AZURE) {
       instance.ssoSilent(loginRequest as SsoSilentRequest).catch((e) => {
         console.log(e);
+        // Try normal redirect login if SSO fails
         if (e instanceof InteractionRequiredAuthError) {
           instance
             .loginRedirect({

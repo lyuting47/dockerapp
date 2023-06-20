@@ -2,7 +2,6 @@ import React from "react";
 import { EmptyUser, UserModel } from "../UserModel";
 
 const Profile = (props: { data: UserModel }) => {
-  console.log(props.data);
   return (
     <form>
       <hr style={{ width: "100%" }} />
