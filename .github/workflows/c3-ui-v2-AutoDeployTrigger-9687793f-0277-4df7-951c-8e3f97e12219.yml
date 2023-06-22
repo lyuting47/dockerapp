@@ -2,13 +2,11 @@ name: Trigger auto deployment for c3-ui-v2
 
 # When this action will be executed
 on:
-  # Automatically trigger it when detected changes in repo
-  push:
-    branches: 
-      [ main ]
-    paths:
-    - '**'
-    - '.github/workflows/c3-ui-v2-AutoDeployTrigger-9687793f-0277-4df7-951c-8e3f97e12219.yml'
+
+  workflow_run:
+    workflows: ["Node.js CI"]
+    types:
+      - completed
 
   # Allow mannually trigger 
   workflow_dispatch:
