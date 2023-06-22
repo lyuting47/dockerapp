@@ -35,7 +35,7 @@ export function Secret(props: { provider: Provider }) {
           <>
             <LogoutButton provider={props.provider} />
             <h1> SECRET IMAGE </h1>
-            <img src="/logo192.png" alt="secret"></img>
+            <img src="/logo192.png" alt="secret image"></img>
           </>
         )}
       </header>
