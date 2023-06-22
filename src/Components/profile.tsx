@@ -1,5 +1,5 @@
 import React from "react";
-import { EmptyUser, UserModel } from "../UserModel";
+import { UserModel } from "../UserModel";
 
 const Profile = (props: { data: UserModel }) => {
   return (

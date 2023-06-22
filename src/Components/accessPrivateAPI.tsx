@@ -5,11 +5,11 @@ import { apiConfig, loginRequest } from "../authConfig";
 import Profile from "./profile";
 import { useRequestApi } from "../CustomHooks/useRequestAPI";
 import { Provider } from "../CustomHooks/provider";
-import { UserModel, EmptyUser } from "../UserModel";
+import { UserModel } from "../UserModel";
 
 const AccessPrivateUncopedApiButton = (props: { provider: Provider }) => {
   const { instance, inProgress } = useMsal();
-  const [data, setData] = useState(EmptyUser);
+  const [data, setData] = useState(UserModel.EmptyUser);
   const [retrieving, setRetrieving] = useState(false);
   const [requestId, setRequestId] = useState("6476b6c5ca2931de7dd4badc");
   const requestApi = useRequestApi<UserModel>(
@@ -57,7 +57,7 @@ const AccessPrivateUncopedApiButton = (props: { provider: Provider }) => {
         <h5 className="card-title">Loading...</h5>
       )}
 
-      {data !== EmptyUser && !retrieving && <Profile data={data} />}
+      {data !== UserModel.EmptyUser && !retrieving && <Profile data={data} />}
     </>
   );
 };

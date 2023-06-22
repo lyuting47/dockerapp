@@ -26,6 +26,7 @@ export function Secret(props: { provider: Provider }) {
     <MsalAuthenticationTemplate
       interactionType={InteractionType.Redirect}
       authenticationRequest={loginRequest}
+      loadingComponent={() => <h5 className="card-title">Loading...</h5>}
     >
       <header className="App-header">
         {inProgress !== InteractionStatus.None ? (
@@ -38,7 +39,6 @@ export function Secret(props: { provider: Provider }) {
           </>
         )}
       </header>
-      {isAuthenticated && <p>test</p>}
     </MsalAuthenticationTemplate>
   );
 }

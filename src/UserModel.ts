@@ -1,13 +1,11 @@
-class UserModel {
+export class UserModel {
   username!: string;
   fullname!: string;
   timezone!: string;
+
+  public static EmptyUser: UserModel = {
+    username: "",
+    fullname: "",
+    timezone: "",
+  };
 }
-
-const EmptyUser: UserModel = {
-  username: "",
-  fullname: "",
-  timezone: "",
-};
-
-export { UserModel, EmptyUser };
