@@ -24,7 +24,7 @@ export function Secret(props: { provider: Provider }) {
 
   return (
     <MsalAuthenticationTemplate
-      interactionType={InteractionType.Silent}
+      interactionType={InteractionType.Redirect}
       authenticationRequest={loginRequest}
     >
       <header className="App-header">

@@ -5,9 +5,8 @@ import {
   EventMessage,
   EventType,
   PublicClientApplication,
-  InteractionType,
 } from "@azure/msal-browser";
-import { MsalAuthenticationTemplate, MsalProvider } from "@azure/msal-react";
+import { MsalProvider } from "@azure/msal-react";
 import { BrowserRouter } from "react-router-dom";
 import { ErrorBoundary } from "react-error-boundary";
 
@@ -64,11 +63,9 @@ function Reset() {
 root.render(
   <ErrorBoundary FallbackComponent={Fallback} onReset={Reset}>
     <MsalProvider instance={msalInstance}>
-      <MsalAuthenticationTemplate interactionType={InteractionType.Redirect}>
-        <BrowserRouter>
-          <App provider={Provider.AZURE} />
-        </BrowserRouter>
-      </MsalAuthenticationTemplate>
+      <BrowserRouter>
+        <App provider={Provider.AZURE} />
+      </BrowserRouter>
     </MsalProvider>
   </ErrorBoundary>
 );
