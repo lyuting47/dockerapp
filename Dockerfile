@@ -2,6 +2,7 @@ FROM node:18-alpine AS builder
 ENV NODE_ENV=production
 WORKDIR /app
 COPY package*.json ./
+COPY tsconfig.json ./
 RUN npm ci --omit=dev
 COPY . .
 RUN npm run build --omit=dev
@@ -11,7 +12,7 @@ ENV NODE_ENV=production
 WORKDIR /app
 COPY package*.json ./
 RUN npm ci --omit=dev
-COPY --from=builder /app/build ./
+COPY --from=builder /app/build ./build
 RUN npm install -g serve
 EXPOSE 3000
 CMD serve -s build
