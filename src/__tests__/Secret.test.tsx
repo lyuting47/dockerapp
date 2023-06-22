@@ -44,7 +44,7 @@ test("Renders secret when logged in", async () => {
 
   const textElement = screen.getByText(/SECRET IMAGE/i);
   expect(textElement).toBeInTheDocument();
-  const imgElement = screen.getByAltText(/secret image/);
+  const imgElement = screen.getByAltText(/secret/);
   expect(imgElement).toBeInTheDocument();
 });
 
@@ -75,6 +75,6 @@ test("Secret page renders correctly when user clicks log out button", async () =
   // From here, your user is supposed to be logged out of the component:
   const textElement = screen.queryByText(/SECRET IMAGE/i);
   expect(textElement).not.toBeInTheDocument();
-  const imgElement = screen.queryByAltText(/secret image/);
+  const imgElement = screen.queryByAltText(/secret/);
   expect(imgElement).not.toBeInTheDocument();
 });
