@@ -6,7 +6,7 @@ on:
   workflow_run:
     workflows: ["Node.js CI"]
     types:
-      - complete
+      - completed
 
   # Allow mannually trigger 
   workflow_dispatch:
