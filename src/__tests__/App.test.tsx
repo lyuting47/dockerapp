@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import { Provider } from "../CustomHooks/provider";
+import { Provider } from "..//CustomHooks/provider";
 import { MsalReactTester } from "../MsalReactTester";
 import App from "../App";
 import { MsalProvider } from "@azure/msal-react";
@@ -10,14 +10,7 @@ let msalTester: MsalReactTester;
 
 beforeEach(() => {
   // new instance of msal tester for each test:
-  msalTester = new MsalReactTester("Redirect", {
-    homeAccountId: "dummy_homeAccountId",
-    environment: "dummy_environment",
-    tenantId: "dummy_tenantId",
-    username: "dummy_username",
-    localAccountId: "dummy_localAccountId",
-    name: "dummy_name",
-  });
+  msalTester = new MsalReactTester();
 
   // Ask msal-react-tester to handle and mock all msal-react processes:
   msalTester.spyMsal();

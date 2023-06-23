@@ -2,7 +2,7 @@ import React from "react";
 import { Provider } from "./CustomHooks/provider";
 import "./App.css";
 import { Link } from "react-router-dom";
-import { Main } from "./Main";
+import { Main } from "./Pages/Main";
 
 function App(props: { provider: Provider }) {
   return (
