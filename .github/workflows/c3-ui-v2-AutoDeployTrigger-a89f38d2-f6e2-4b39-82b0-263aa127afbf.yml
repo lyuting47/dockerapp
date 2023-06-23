@@ -34,7 +34,7 @@ jobs:
           registryPassword: ${{ secrets.C3UIV2_REGISTRY_PASSWORD }}
           containerAppName: c3-ui-v2
           resourceGroup: c3-containerapps
-          imageToBuild: luting47/c3-ui-v2:${{ github.sha }}
+          imageToBuild: luting47/c3-ui:${{ github.sha }}
           dockerfilePath: Dockerfile
 
      
