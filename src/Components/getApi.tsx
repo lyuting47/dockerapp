@@ -40,7 +40,7 @@ const GetApiButton = (props: { provider: Provider }) => {
           <label>
             Search for ID:{" "}
             <input
-              name="search_id"
+              aria-label="search_id"
               defaultValue={searchId}
               onChange={(e) => setSearchId(e.target.value)}
               size={23}
