@@ -10,10 +10,13 @@ const Profile = (props: { data: UserModel }) => {
       ) : (
         <div>
           <p>
+            <strong>ID: </strong> {props.data.id}
+          </p>
+          <p>
             <strong>Username: </strong> {props.data.username}
           </p>
           <p>
-            <strong>Full Name: </strong> {props.data.fullname}
+            <strong>Full Name: </strong> {props.data.fullName}
           </p>
           <p>
             <strong>Timezone: </strong> {props.data.timezone}

@@ -1,11 +1,18 @@
 export class UserModel {
-  username!: string;
-  fullname!: string;
-  timezone!: string;
+  id?: string;
+  username: string;
+  fullName: string;
+  timezone: string;
 
   public static EmptyUser: UserModel = {
     username: "",
-    fullname: "",
+    fullName: "",
     timezone: "",
   };
+
+  public constructor() {
+    this.username = "";
+    this.fullName = "";
+    this.timezone = "";
+  }
 }
