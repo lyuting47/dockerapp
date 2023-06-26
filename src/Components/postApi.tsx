@@ -31,6 +31,7 @@ const PostApiButton = (props: { provider: Provider }) => {
           onSubmit={(e) => {
             e.preventDefault();
             setRetrieving(true);
+            setNewUser(new UserModel());
             requestApi<UserModel>(apiConfig.apiEndpoint, "POST", newUser);
           }}
         >
