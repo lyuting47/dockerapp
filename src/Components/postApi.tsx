@@ -13,13 +13,8 @@ const PostApiButton = (props: { provider: Provider }) => {
   const [data, setData] = useState<UserModel | ApiError>(UserModel.EmptyUser);
   const [retrieving, setRetrieving] = useState(false);
   const [newUser, setNewUser] = useState(new UserModel());
-  const requestApi = useRequestApi<UserModel | ApiError>(
+  const requestApi = useRequestApi(
     props.provider,
-    (response: UserModel | ApiError) => {
-      console.log(response);
-      setData(response);
-      setRetrieving(false);
-    },
     instance.getActiveAccount(),
     loginRequest
   );
@@ -31,8 +26,17 @@ const PostApiButton = (props: { provider: Provider }) => {
           onSubmit={(e) => {
             e.preventDefault();
             setRetrieving(true);
+            requestApi<UserModel, UserModel | ApiError>(
+              apiConfig.apiEndpoint,
+              "POST",
+              (response: UserModel | ApiError) => {
+                console.log(response);
+                setData(response);
+                setRetrieving(false);
+              },
+              newUser
+            );
             setNewUser(new UserModel());
-            requestApi<UserModel>(apiConfig.apiEndpoint, "POST", newUser);
           }}
         >
           <label>

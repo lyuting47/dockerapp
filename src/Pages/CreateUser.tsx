@@ -46,10 +46,8 @@ export function CreateUser(props: { provider: Provider }) {
     >
       <header className="App-header">
         <LogoutButton provider={props.provider} />
-        {isAuthenticated && inProgress === InteractionStatus.None ? (
-          <h5 className="card-title">
-            Enter details:
-          </h5>
+        {inProgress === InteractionStatus.None ? (
+          <h5 className="card-title">Enter details:</h5>
         ) : (
           <h5 className="card-title">Loading...</h5>
         )}

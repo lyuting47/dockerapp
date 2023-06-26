@@ -12,14 +12,9 @@ const GetApiButton = (props: { provider: Provider }) => {
   const { instance } = useMsal();
   const [data, setData] = useState<UserModel | ApiError>(UserModel.EmptyUser);
   const [retrieving, setRetrieving] = useState(false);
-  const [requestId, setRequestId] = useState("6476b6c5ca2931de7dd4badc");
-  const requestApi = useRequestApi<UserModel | ApiError>(
+  const [searchId, setSearchId] = useState("6476b6c5ca2931de7dd4badc");
+  const requestApi = useRequestApi(
     props.provider,
-    (response: UserModel | ApiError) => {
-      console.log(response);
-      setData(response);
-      setRetrieving(false);
-    },
     instance.getActiveAccount(),
     loginRequest
   );
@@ -31,15 +26,23 @@ const GetApiButton = (props: { provider: Provider }) => {
           onSubmit={(e) => {
             e.preventDefault();
             setRetrieving(true);
-            requestApi(apiConfig.apiEndpoint + requestId, "GET");
+            requestApi<void, UserModel | ApiError>(
+              apiConfig.apiEndpoint + searchId,
+              "GET",
+              (response: UserModel | ApiError) => {
+                console.log(response);
+                setData(response);
+                setRetrieving(false);
+              }
+            );
           }}
         >
           <label>
             Search for ID:{" "}
             <input
-              name="id"
-              defaultValue={requestId}
-              onChange={(e) => setRequestId(e.target.value)}
+              name="search_id"
+              defaultValue={searchId}
+              onChange={(e) => setSearchId(e.target.value)}
               size={23}
               style={{ verticalAlign: 2.5 }}
             />

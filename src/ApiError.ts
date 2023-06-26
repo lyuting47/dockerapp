@@ -1,5 +1,4 @@
 export class ApiError {
-  static state = "success";
   name: string;
   message: string;
 

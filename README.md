@@ -9,7 +9,7 @@ React Error Boundary: https://github.com/bvaughn/react-error-boundary
 Configuring auto formatting: https://www.alphr.com/use-prettier-vs-code/
 
 Setup: `npm install`
-Dont't worry if warnings show up: https://github.com/facebook/create-react-app/issues/11174
+Don't worry if warnings show up: https://github.com/facebook/create-react-app/issues/11174
 
 To lint, run `npx eslint .`
 
