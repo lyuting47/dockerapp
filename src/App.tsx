@@ -5,6 +5,7 @@ import { Main } from "./Pages/Main";
 import NavBar from "./Components/navBar";
 
 function App(props: { provider: Provider }) {
+
   return (
     <div className="App">
       <header className="App-header">

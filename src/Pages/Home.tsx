@@ -22,18 +22,21 @@ export function Home(props: { provider: Provider }) {
   return (
     <header className="App-header">
       <h1> SPA with Azure </h1>
-      {!isAuthenticated && <h5>Please sign in to access the API.</h5>}
-      {!isAuthenticated && <LoginButton provider={props.provider} />}
-      {isAuthenticated && <LogoutButton provider={props.provider} />}
-      {isAuthenticated &&
-        (inProgress === InteractionStatus.None ? (
-          <h5 className="card-title">
-            Welcome {instance.getActiveAccount()?.name}
-          </h5>
-        ) : (
-          <h5 className="card-title">Loading...</h5>
-        ))}
-      {isAuthenticated && <GetApiButton provider={props.provider} />}
+      {inProgress !== InteractionStatus.None ? (
+        <h1 className="card-title">Loading...</h1>
+      ) : (
+        <>
+          {!isAuthenticated && <h5>Please sign in to access the API.</h5>}
+          {!isAuthenticated && <LoginButton provider={props.provider} />}
+          {isAuthenticated && <LogoutButton provider={props.provider} />}
+          {isAuthenticated && (
+            <h5 className="card-title">
+              Welcome {instance.getActiveAccount()?.name}
+            </h5>
+          )}
+          {isAuthenticated && <GetApiButton provider={props.provider} />}
+        </>
+      )}
     </header>
   );
 }

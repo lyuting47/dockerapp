@@ -3,8 +3,8 @@ import { useMsal } from "@azure/msal-react";
 import { Provider } from "./provider";
 import {
   AccountInfo,
-  AuthError,
   EndSessionRequest,
+  InteractionRequiredAuthError,
   RedirectRequest,
   SilentRequest,
 } from "@azure/msal-browser";
@@ -124,9 +124,9 @@ export function useRequestApi(
         })
         .catch((err) => {
           console.log(err);
-          if (err instanceof AuthError) {
-            instance
-              .loginRedirect({
+          if (err instanceof InteractionRequiredAuthError) {
+            return instance
+              .acquireTokenRedirect({
                 ...loginRequest,
                 prompt: "select_account",
               } as RedirectRequest)
