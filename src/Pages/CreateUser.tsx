@@ -8,21 +8,21 @@ import {
 import LogoutButton from "../Components/logout";
 import LoginButton from "../Components/login";
 import { InteractionStatus, InteractionType } from "@azure/msal-browser";
-import { useNavigate } from "react-router-dom";
 import { loginRequest } from "../authConfig";
 import PostApiButton from "../Components/postApi";
 
 export function CreateUser(props: { provider: Provider }) {
   const { instance, inProgress } = useMsal();
   const isAuthenticated = useIsAuthenticated();
-  const navigate = useNavigate();
 
-  // Force the page to refresh if there are inconsistencies in login status of user across tabs
+  // Logs user out if there are inconsistencies in login status of user across tabs
   useEffect(() => {
     if (isAuthenticated && !instance.getActiveAccount()) {
-      navigate(0);
+      throw Error(
+        "Something went wrong. Your session might have expired. Please log in again."
+      );
     }
-  }, [instance, navigate, isAuthenticated]);
+  }, [instance, isAuthenticated]);
 
   function Fallback() {
     return (

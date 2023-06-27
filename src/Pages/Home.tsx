@@ -5,19 +5,19 @@ import LoginButton from "../Components/login";
 import LogoutButton from "../Components/logout";
 import GetApiButton from "../Components/getApi";
 import { Provider } from "../CustomHooks/provider";
-import { useNavigate } from "react-router-dom";
 
 export function Home(props: { provider: Provider }) {
   const isAuthenticated = useIsAuthenticated();
   const { instance, inProgress } = useMsal();
-  const navigate = useNavigate();
 
-  // Force the page to refresh if there are inconsistencies in login status of user across tabs
+  // Logs user out if there are inconsistencies in login status of user across tabs
   useEffect(() => {
     if (isAuthenticated && !instance.getActiveAccount()) {
-      navigate(0);
+      throw Error(
+        "Something went wrong. Your session might have expired. Please log in again."
+      );
     }
-  }, [instance, navigate, isAuthenticated]);
+  }, [instance, isAuthenticated]);
 
   return (
     <header className="App-header">
