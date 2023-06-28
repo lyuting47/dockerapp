@@ -10,7 +10,7 @@ const ApiErrorProfile = (props: { data: ApiError }) => {
           <strong> Request Error </strong>
         </p>
         <p>
-          <strong>Error name: </strong> {props.data.name}
+          <strong>Error Name: </strong> {props.data.name}
         </p>
         <p>
           <strong>Error Message: </strong> {props.data.message}
