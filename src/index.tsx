@@ -52,7 +52,14 @@ function Fallback(renderError: {
 }
 
 function Reset() {
-  if (msalInstance.getAllAccounts().length > 0) {
+  if (msalInstance.getActiveAccount()) {
+    msalInstance
+      .logoutRedirect({
+        ...logoutRequest,
+        account: msalInstance.getActiveAccount(),
+      })
+      .catch((err) => console.log(err));
+  } else if (msalInstance.getAllAccounts().length > 0) {
     msalInstance
       .logoutRedirect({
         ...logoutRequest,

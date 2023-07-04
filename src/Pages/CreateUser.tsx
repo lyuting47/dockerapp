@@ -29,7 +29,7 @@ export function CreateUser(props: { provider: Provider }) {
       <div role="alert">
         <p>Something went wrong:</p>
         <pre style={{ color: "red" }}>
-          Something went wrong while signing you in. Your session might have
+          Something went wrong. Your session might have
           expired. Please log in again.
         </pre>
         <LoginButton provider={props.provider} />

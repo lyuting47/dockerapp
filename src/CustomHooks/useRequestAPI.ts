@@ -3,7 +3,6 @@ import { useMsal } from "@azure/msal-react";
 import { Provider } from "./provider";
 import {
   AccountInfo,
-  EndSessionRequest,
   InteractionRequiredAuthError,
   RedirectRequest,
   SilentRequest,
@@ -36,7 +35,6 @@ async function accessApiWithToken<U, T>(
     body: JSON.stringify(payload),
   };
 
-  console.log(options.body);
   const response = await fetch(apiEndpoint, options);
   return response.json() as Promise<T>;
 }
@@ -81,28 +79,9 @@ export function useRequestApi(
       if (
         account.localAccountId !== instance.getActiveAccount()?.localAccountId
       ) {
-        //TODO: handle this case better?
-        console.log("Another account is currently active");
-        if (instance.getAllAccounts().length > 1) {
-          instance
-            .logoutRedirect({
-              postLogoutRedirectUri: window.location.origin,
-              account: account,
-            } as EndSessionRequest)
-            .catch((e) => {
-              console.log(e);
-            });
-        } else {
-          instance
-            .loginRedirect({
-              ...loginRequest,
-              prompt: "select_account",
-            } as RedirectRequest)
-            .catch((e) => {
-              console.log(e);
-            });
-        }
-        return;
+        throw Error(
+          "The session associated with this account is no longer active, please log in again."
+        );
       }
 
       // Get token silently and use it to access API
@@ -135,7 +114,6 @@ export function useRequestApi(
               });
           }
         });
-      return;
     }
 
     // Auth0
