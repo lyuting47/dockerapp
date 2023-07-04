@@ -1,8 +1,8 @@
 FROM node:18-alpine3.18 AS builder
 WORKDIR /app
-COPY package*.json ./
+COPY package*.json /app
 RUN ["npm", "ci"]
-COPY . .
+COPY . /app
 RUN ["npm", "run", "build"]
 
 FROM nginx:1.24
