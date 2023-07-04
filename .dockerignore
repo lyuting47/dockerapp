@@ -1,7 +1,7 @@
-node_modules/*
-src/MsalReactTester/*
-src/__test__/*
-dist/*
-.git/*
+/node_modules/*
+/src/MsalReactTester/*
+/src/__test__/*
+/dist/*
+/.git/*
 README.md
 .eslintrc.js
