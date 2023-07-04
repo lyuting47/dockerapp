@@ -4,7 +4,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN ["npm", "ci"]
 COPY . .
-RUN ["npm", "run", "build", "--omit=dev"]
+RUN ["npm", "run", "build"]
 
 FROM nginx:1.24
 ENV NODE_ENV=production
