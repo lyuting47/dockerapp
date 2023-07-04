@@ -1,6 +1,7 @@
 /node_modules/*
 /src/MsalReactTester/*
-/src/__test__/*
+/src/__tests__/*
+/src/setupTests.ts
 /dist/*
 /.git/*
 README.md
