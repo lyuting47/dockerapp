@@ -1,5 +1,4 @@
 FROM node:18-alpine3.18 AS builder
-ENV NODE_ENV=production
 WORKDIR /app
 COPY package*.json ./
 RUN ["npm", "ci"]
