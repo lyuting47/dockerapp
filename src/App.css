@@ -1,19 +1,22 @@
+:root {
+  --open-color: brightness(0) saturate(100%) invert(88%) sepia(91%) saturate(1758%) hue-rotate(1deg) brightness(104%) contrast(104%);
+  --close-color: brightness(0) saturate(100%) invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+
 .App {
   text-align: center;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 120vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  min-width: max-content;
-  padding-left: 50px;
-  padding-right: 50px;
+  min-width: min-content;
 }
 
 .Train {
@@ -30,8 +33,30 @@
   animation: glide 1s ease-in-out forwards;
 }
 
+.TrainOpen {
+  animation: door-open 1s ease-in-out forwards;
+}
+
+.TrainClose {
+  animation: door-close 1s ease-in-out forwards;
+}
+
 @keyframes glide {
   100% {
+    translate: var(--delta-left) var(--delta-top);
+  }
+}
+
+@keyframes door-open {
+  100% {
+    filter: var(--open-color);
+    translate: var(--delta-left) var(--delta-top);
+  }
+}
+
+@keyframes door-close {
+  100% {
+    filter: var(--close-color);
     translate: var(--delta-left) var(--delta-top);
   }
 }

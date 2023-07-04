@@ -6,9 +6,9 @@ import {
   useMsal,
 } from "@azure/msal-react";
 import LogoutButton from "../Components/logout";
-import LoginButton from "../Components/login";
 import { InteractionType } from "@azure/msal-browser";
 import { loginRequest } from "../authConfig";
+import Fallback from "../Components/authErrorFallback";
 
 export function Secret(props: { provider: Provider }) {
   const { instance } = useMsal();
@@ -23,25 +23,12 @@ export function Secret(props: { provider: Provider }) {
     }
   }, [instance, isAuthenticated]);
 
-  function Fallback() {
-    return (
-      <div role="alert">
-        <p>Something went wrong:</p>
-        <pre style={{ color: "red" }}>
-          Something went wrong. Your session might have
-          expired. Please log in again.
-        </pre>
-        <LoginButton provider={props.provider} />
-      </div>
-    );
-  }
-
   return (
     <MsalAuthenticationTemplate
-      interactionType={InteractionType.Redirect}
+      interactionType={InteractionType.Silent}
       authenticationRequest={loginRequest}
       loadingComponent={() => <h1 className="card-title">Loading...</h1>}
-      errorComponent={Fallback}
+      errorComponent={() => <Fallback provider={props.provider}></Fallback>}
     >
       <header className="App-header">
         <LogoutButton provider={props.provider} />

@@ -5,27 +5,24 @@ import {
   useIsAuthenticated,
   useMsal,
 } from "@azure/msal-react";
-import LoginButton from "../Components/login";
 import { InteractionType } from "@azure/msal-browser";
 import { loginRequest } from "../authConfig";
 import NslSvg from "../Components/nslSvg";
 import Train from "../Components/trainSvg";
 import { RawTrainInfo, getTrainById } from "../rawTrainInfo";
 import sampleData from "./schematics_json_NSEWL.json";
+import Fallback from "../Components/authErrorFallback";
 
 // Filtering some bad data
 const sampleNslData = sampleData.filter(
-  (item) =>
-    item.line_code === "NSL" &&
-    item.platform_code !== null &&
-    item.train_id !== "226"
+  (item) => item.line_code === "NSL" && item.platform_code !== null
 );
 
 export function NslMap(props: { provider: Provider }) {
   const { instance } = useMsal();
   const isAuthenticated = useIsAuthenticated();
   const [currFrame, setCurrFrame] = useState<RawTrainInfo[]>([]);
-  const [page, setPage] = useState(5);
+  const [page, setPage] = useState(0);
 
   // Logs user out if there are inconsistencies in login status of user across tabs
   useEffect(() => {
@@ -36,42 +33,23 @@ export function NslMap(props: { provider: Provider }) {
     }
   }, [instance, isAuthenticated]);
 
-  // currFrame is initialized with useEffect so that train sprites are rendered after map has finished rendering
-  useEffect(() => {
-    setCurrFrame(sampleNslData.slice(0, 5));
-  }, [setCurrFrame]);
-
-  function Fallback() {
-    return (
-      <div role="alert">
-        <p>Something went wrong:</p>
-        <pre style={{ color: "red" }}>
-          Something went wrong. Your session might have expired. Please log in
-          again.
-        </pre>
-        <LoginButton provider={props.provider} />
-      </div>
-    );
-  }
-
   return (
     <MsalAuthenticationTemplate
-      interactionType={InteractionType.Redirect}
+      interactionType={InteractionType.Silent}
       authenticationRequest={loginRequest}
       loadingComponent={() => <h1 className="card-title">Loading...</h1>}
-      errorComponent={Fallback}
+      errorComponent={() => <Fallback provider={props.provider}></Fallback>}
     >
       <header className="App-header">
-        <h5> Click button to send next batch of data. </h5>
         <form
           onSubmit={(e) => {
             e.preventDefault();
-            setPage((val) => val + 10);
+            setPage((val) => val + 5);
 
-            // Simulating new incoming data and remove duplicates(?)
+            // Simulating new incoming data and remove any duplicates(?)
             const nextFrame: RawTrainInfo[] = sampleNslData.slice(
               page,
-              page + 10
+              page + 5
             );
             for (let i = nextFrame.length - 1; i >= 0; i--) {
               for (let j = 0; j < i; j++)
@@ -109,6 +87,7 @@ export function NslMap(props: { provider: Provider }) {
                 nextFrame.push(train);
                 continue;
               }
+
               const stn = document.getElementById(
                 train_nextFrame.station_code +
                   " " +
@@ -126,9 +105,11 @@ export function NslMap(props: { provider: Provider }) {
                 continue;
               }
 
-              // Calculate distance to move the train sprite by, start animation
-              const stn_left = stn.getBoundingClientRect().x + window.scrollX;
-              const stn_top = stn.getBoundingClientRect().y + window.scrollY;
+              // Calculate distance to move the train sprite by
+              const stn_left =
+                stn.getBoundingClientRect().x + window.scrollX - 11;
+              const stn_top =
+                stn.getBoundingClientRect().y + window.scrollY - 11;
               trainSprite.style.setProperty(
                 "--delta-left",
                 (stn_left - curr_left).toString() + "px"
@@ -137,10 +118,17 @@ export function NslMap(props: { provider: Provider }) {
                 "--delta-top",
                 (stn_top - curr_top).toString() + "px"
               );
-              trainSprite.classList.add("TrainMove");
+
+              // Add animations
+              if (train_nextFrame.status === "OPENED") {
+                trainSprite.classList.add("TrainOpen");
+              }
+              if (train_nextFrame.status === "CLOSED") {
+                trainSprite.classList.add("TrainClose");
+              }
             }
 
-            // Stop animation and display new static frame
+            // Stop animations and display new static frame
             setTimeout(() => {
               for (let i = 0; i < currFrame.length; i++) {
                 const trainSprite = document.getElementById(
@@ -149,13 +137,14 @@ export function NslMap(props: { provider: Provider }) {
                 if (trainSprite === null) {
                   continue;
                 }
-                trainSprite.classList.remove("TrainMove");
+                trainSprite.classList.remove("TrainOpen");
+                trainSprite.classList.remove("TrainClose");
               }
               setCurrFrame(nextFrame);
             }, 1100);
           }}
         >
-          <button type="submit">Move</button>
+          <button type="submit">Next</button>
         </form>
         <NslSvg />
         {currFrame.map((item) => {
@@ -168,6 +157,11 @@ export function NslMap(props: { provider: Provider }) {
           if (stn === null) {
             return;
           }
+          const root = document.querySelector(":root");
+          if (root === null) {
+            throw Error("No root variables found in CSS");
+          }
+          const rootStyle = getComputedStyle(root);
           return (
             <Train
               key={item.train_id}
@@ -175,11 +169,21 @@ export function NslMap(props: { provider: Provider }) {
               style={{
                 position: "absolute",
                 left:
-                  (stn.getBoundingClientRect().x + window.scrollX).toString() +
-                  "px",
+                  (
+                    stn.getBoundingClientRect().x +
+                    window.scrollX -
+                    11
+                  ).toString() + "px",
                 top:
-                  (stn.getBoundingClientRect().y + window.scrollY).toString() +
-                  "px",
+                  (
+                    stn.getBoundingClientRect().y +
+                    window.scrollY -
+                    11
+                  ).toString() + "px",
+                filter:
+                  item.status === "OPENED"
+                    ? rootStyle.getPropertyValue("--open-color")
+                    : rootStyle.getPropertyValue("--close-color"),
               }}
             />
           );
