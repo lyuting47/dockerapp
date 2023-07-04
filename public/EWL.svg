@@ -1,0 +1,481 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1654" height="536" viewBox="0 0 1654 536">
+  <g id="Group_382" data-name="Group 382" transform="translate(-133 -477)">
+    <line id="Line_477" data-name="Line 477" x2="60" transform="translate(660 831.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_478" data-name="Line 478" x2="60" transform="translate(660 891.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_479" data-name="Line 479" x2="60" transform="translate(821 949)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_480" data-name="Line 480" x2="60" transform="translate(821 1009)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_474" data-name="Line 474" x2="160" transform="translate(881 1009)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_475" data-name="Line 475" x2="69" transform="translate(1042 1009)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_453" data-name="Line 453" x2="100" transform="translate(1362 714.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_476" data-name="Line 476" x2="33" transform="translate(1042 949)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <rect id="Rectangle_954" data-name="Rectangle 954" width="16" height="40" rx="2" transform="translate(1355.5 841.5)" fill="#529a2d"/>
+    <text id="Bedok" transform="translate(1377.5 877.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Bedok</tspan></text>
+    <text id="EW5" transform="translate(1377.5 859.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW5</tspan></text>
+    <line id="Line_454" data-name="Line 454" x2="40" transform="translate(1362 774.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_455" data-name="Line 455" y1="60" transform="translate(1402 773)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_456" data-name="Line 456" y1="180" transform="translate(1463 713)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_457" data-name="Line 457" x2="100" transform="translate(1362 891.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_458" data-name="Line 458" x2="40" transform="translate(1362 831.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_460" data-name="Line 460" x2="160" transform="translate(720 831.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <rect id="Rectangle_961" data-name="Rectangle 961" width="16" height="40" rx="2" transform="translate(712 841.5)" fill="#529a2d"/>
+    <g id="Rectangle_962" data-name="Rectangle 962" transform="translate(716 827.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Pasir_Ris" data-name="Pasir Ris" transform="translate(734 877.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Pasir Ris</tspan></text>
+    <text id="EW1" transform="translate(734 859.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW1</tspan></text>
+    <line id="Line_461" data-name="Line 461" x2="160" transform="translate(881 831.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <rect id="Rectangle_963" data-name="Rectangle 963" width="16" height="40" rx="2" transform="translate(873 841.5)" fill="#529a2d"/>
+    <g id="Rectangle_964" data-name="Rectangle 964" transform="translate(877 827.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Tampines" transform="translate(895 877.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Tampines</tspan></text>
+    <text id="EW2" transform="translate(895 859.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW2</tspan></text>
+    <line id="Line_462" data-name="Line 462" x2="160" transform="translate(1042 831.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_965" data-name="Rectangle 965" transform="translate(1038 827.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_966" data-name="Rectangle 966" width="16" height="40" rx="2" transform="translate(1034 841.5)" fill="#529a2d"/>
+    <text id="Simei" transform="translate(1056 877.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Simei</tspan></text>
+    <text id="EW3" transform="translate(1056 859.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW3</tspan></text>
+    <line id="Line_464" data-name="Line 464" x2="160" transform="translate(720 891.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_968" data-name="Rectangle 968" transform="translate(716 887.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_465" data-name="Line 465" x2="160" transform="translate(881 891.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_969" data-name="Rectangle 969" transform="translate(877 887.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_466" data-name="Line 466" x2="160" transform="translate(1042 891.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_970" data-name="Rectangle 970" transform="translate(1038 887.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_467" data-name="Line 467" x2="160" transform="translate(1203 831.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_971" data-name="Rectangle 971" transform="translate(1199 827.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_972" data-name="Rectangle 972" width="16" height="40" rx="2" transform="translate(1195 841.5)" fill="#529a2d"/>
+    <text id="Tanah_Merah" data-name="Tanah Merah" transform="translate(1217 877.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Tanah Merah</tspan></text>
+    <text id="EW4" transform="translate(1217 859.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW4</tspan></text>
+    <line id="Line_468" data-name="Line 468" x2="160" transform="translate(1203 891.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_973" data-name="Rectangle 973" transform="translate(1199 887.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_469" data-name="Line 469" y1="117" x2="82" transform="translate(1075 832)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_470" data-name="Line 470" y1="118" x2="80" transform="translate(1111 891)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_373" data-name="Line 373" x1="100" transform="translate(135.5 597.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_374" data-name="Line 374" x1="40" transform="translate(195.5 657.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_375" data-name="Line 375" y1="60" transform="translate(195.5 656)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_376" data-name="Line 376" y1="180" transform="translate(134.5 596)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_377" data-name="Line 377" x1="100" transform="translate(135.5 774.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_378" data-name="Line 378" x1="40" transform="translate(195.5 714.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_379" data-name="Line 379" x2="160" transform="translate(1362.5 598)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_380" data-name="Line 380" x2="160" transform="translate(1362.5 658)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_381" data-name="Line 381" x2="160" transform="translate(235.5 598)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_382" data-name="Line 382" x2="160" transform="translate(396.5 598)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <rect id="Rectangle_858" data-name="Rectangle 858" width="16" height="40" rx="2" transform="translate(388.5 608)" fill="#529a2d"/>
+    <g id="Rectangle_859" data-name="Rectangle 859" transform="translate(392.5 594)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_860" data-name="Rectangle 860" width="16" height="40" rx="2" transform="translate(227.5 608)" fill="#529a2d"/>
+    <g id="Rectangle_861" data-name="Rectangle 861" transform="translate(231.5 594)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Raffles_Place" data-name="Raffles Place" transform="translate(249.5 644)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Raffles Place</tspan></text>
+    <text id="EW14" transform="translate(249.5 626)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW14</tspan></text>
+    <text id="Tanjong_Pagar" data-name="Tanjong Pagar" transform="translate(410.5 644)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Tanjong Pagar</tspan></text>
+    <text id="EW15" transform="translate(410.5 626)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW15</tspan></text>
+    <line id="Line_383" data-name="Line 383" x2="160" transform="translate(557.5 598)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <rect id="Rectangle_862" data-name="Rectangle 862" width="16" height="40" rx="2" transform="translate(549.5 608)" fill="#529a2d"/>
+    <g id="Rectangle_863" data-name="Rectangle 863" transform="translate(553.5 594)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Outram_Park" data-name="Outram Park" transform="translate(571.5 644)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Outram Park</tspan></text>
+    <text id="EW16" transform="translate(571.5 626)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW16</tspan></text>
+    <line id="Line_384" data-name="Line 384" x2="160" transform="translate(718.5 598)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <rect id="Rectangle_864" data-name="Rectangle 864" width="16" height="40" rx="2" transform="translate(710.5 608)" fill="#529a2d"/>
+    <g id="Rectangle_865" data-name="Rectangle 865" transform="translate(714.5 594)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Tiong_Bahru" data-name="Tiong Bahru" transform="translate(732.5 644)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Tiong Bahru</tspan></text>
+    <text id="EW17" transform="translate(732.5 626)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW17</tspan></text>
+    <line id="Line_385" data-name="Line 385" x2="160" transform="translate(879.5 598)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <rect id="Rectangle_866" data-name="Rectangle 866" width="16" height="40" rx="2" transform="translate(871.5 608)" fill="#529a2d"/>
+    <g id="Rectangle_867" data-name="Rectangle 867" transform="translate(875.5 594)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Redhill" transform="translate(893.5 644)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Redhill</tspan></text>
+    <text id="EW18" transform="translate(893.5 626)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW18</tspan></text>
+    <line id="Line_386" data-name="Line 386" x2="160" transform="translate(1040.5 598)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_868" data-name="Rectangle 868" transform="translate(1036.5 594)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_869" data-name="Rectangle 869" width="16" height="40" rx="2" transform="translate(1032.5 608)" fill="#529a2d"/>
+    <text id="Queenstown" transform="translate(1054.5 644)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Queenstown</tspan></text>
+    <text id="EW19" transform="translate(1054.5 626)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW19</tspan></text>
+    <line id="Line_387" data-name="Line 387" x2="160" transform="translate(235.5 658)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_388" data-name="Line 388" x2="160" transform="translate(396.5 658)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_870" data-name="Rectangle 870" transform="translate(392.5 654)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="Rectangle_871" data-name="Rectangle 871" transform="translate(231.5 654)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_389" data-name="Line 389" x2="160" transform="translate(557.5 658)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_872" data-name="Rectangle 872" transform="translate(553.5 654)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_390" data-name="Line 390" x2="160" transform="translate(718.5 658)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_873" data-name="Rectangle 873" transform="translate(714.5 654)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_391" data-name="Line 391" x2="160" transform="translate(879.5 658)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_874" data-name="Rectangle 874" transform="translate(875.5 654)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_392" data-name="Line 392" x2="160" transform="translate(1040.5 658)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_875" data-name="Rectangle 875" transform="translate(1036.5 654)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_393" data-name="Line 393" x2="160" transform="translate(1201.5 598)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_876" data-name="Rectangle 876" transform="translate(1197.5 594)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_877" data-name="Rectangle 877" width="16" height="40" rx="2" transform="translate(1193.5 608)" fill="#529a2d"/>
+    <text id="Common_Wealth" data-name="Common Wealth" transform="translate(1215.5 644)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Common Wealth</tspan></text>
+    <text id="EW20" transform="translate(1215.5 626)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW20</tspan></text>
+    <line id="Line_394" data-name="Line 394" x2="160" transform="translate(1201.5 658)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_878" data-name="Rectangle 878" transform="translate(1197.5 654)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="Rectangle_879" data-name="Rectangle 879" transform="translate(1358.5 594)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_880" data-name="Rectangle 880" width="16" height="40" rx="2" transform="translate(1354.5 608)" fill="#529a2d"/>
+    <text id="Buona_Vista" data-name="Buona Vista" transform="translate(1376.5 644)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Buona Vista</tspan></text>
+    <text id="EW21" transform="translate(1376.5 626)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW21</tspan></text>
+    <g id="Rectangle_881" data-name="Rectangle 881" transform="translate(1358.5 654)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_395" data-name="Line 395" x2="160" transform="translate(1523.5 598)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_396" data-name="Line 396" x2="160" transform="translate(1523.5 658)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_882" data-name="Rectangle 882" transform="translate(1519.5 594)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_883" data-name="Rectangle 883" width="16" height="40" rx="2" transform="translate(1515.5 608)" fill="#529a2d"/>
+    <text id="Dover" transform="translate(1537.5 644)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Dover</tspan></text>
+    <text id="EW22" transform="translate(1537.5 626)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW22</tspan></text>
+    <g id="Rectangle_884" data-name="Rectangle 884" transform="translate(1519.5 654)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_397" data-name="Line 397" x2="100" transform="translate(1684.5 481)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_398" data-name="Line 398" x2="40" transform="translate(1684.5 541)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_953" data-name="Rectangle 953" transform="translate(1359.5 827.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="Rectangle_955" data-name="Rectangle 955" transform="translate(1359.5 887.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_399" data-name="Line 399" x2="160" transform="translate(1362.5 481)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_400" data-name="Line 400" x2="160" transform="translate(1362.5 541)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_401" data-name="Line 401" x2="160" transform="translate(235.5 481)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_402" data-name="Line 402" x2="160" transform="translate(396.5 481)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_403" data-name="Line 403" x2="60" transform="translate(175.5 481)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <rect id="Rectangle_885" data-name="Rectangle 885" width="16" height="40" rx="2" transform="translate(388.5 491)" fill="#529a2d"/>
+    <g id="Rectangle_886" data-name="Rectangle 886" transform="translate(392.5 477)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_887" data-name="Rectangle 887" width="16" height="40" rx="2" transform="translate(227.5 491)" fill="#529a2d"/>
+    <g id="Rectangle_888" data-name="Rectangle 888" transform="translate(231.5 477)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Tuas_Link" data-name="Tuas Link" transform="translate(249.5 527)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Tuas Link</tspan></text>
+    <text id="EW33" transform="translate(249.5 509)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW33</tspan></text>
+    <text id="Tuas_West_Road" data-name="Tuas West Road" transform="translate(410.5 527)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Tuas West Road</tspan></text>
+    <text id="EW32" transform="translate(410.5 509)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW32</tspan></text>
+    <line id="Line_404" data-name="Line 404" x2="160" transform="translate(557.5 481)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <rect id="Rectangle_889" data-name="Rectangle 889" width="16" height="40" rx="2" transform="translate(549.5 491)" fill="#529a2d"/>
+    <g id="Rectangle_890" data-name="Rectangle 890" transform="translate(553.5 477)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Tuas_Crescent" data-name="Tuas Crescent" transform="translate(571.5 527)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Tuas Crescent</tspan></text>
+    <text id="EW31" transform="translate(571.5 509)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW31</tspan></text>
+    <line id="Line_405" data-name="Line 405" x2="160" transform="translate(718.5 481)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <rect id="Rectangle_891" data-name="Rectangle 891" width="16" height="40" rx="2" transform="translate(710.5 491)" fill="#529a2d"/>
+    <g id="Rectangle_892" data-name="Rectangle 892" transform="translate(714.5 477)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Gull_CIrcle" data-name="Gull CIrcle" transform="translate(732.5 527)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Gull CIrcle</tspan></text>
+    <text id="EW30" transform="translate(732.5 509)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW30</tspan></text>
+    <line id="Line_406" data-name="Line 406" x2="160" transform="translate(879.5 481)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <rect id="Rectangle_893" data-name="Rectangle 893" width="16" height="40" rx="2" transform="translate(871.5 491)" fill="#529a2d"/>
+    <g id="Rectangle_894" data-name="Rectangle 894" transform="translate(875.5 477)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Joo_Koon" data-name="Joo Koon" transform="translate(893.5 527)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Joo Koon</tspan></text>
+    <text id="EW29" transform="translate(893.5 509)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW29</tspan></text>
+    <line id="Line_407" data-name="Line 407" x2="160" transform="translate(1040.5 481)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_895" data-name="Rectangle 895" transform="translate(1036.5 477)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_896" data-name="Rectangle 896" width="16" height="40" rx="2" transform="translate(1032.5 491)" fill="#529a2d"/>
+    <text id="Pioneer" transform="translate(1054.5 527)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Pioneer</tspan></text>
+    <text id="EW28" transform="translate(1054.5 509)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW28</tspan></text>
+    <line id="Line_408" data-name="Line 408" x2="160" transform="translate(235.5 541)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_409" data-name="Line 409" x2="160" transform="translate(396.5 541)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_410" data-name="Line 410" x2="60" transform="translate(175.5 541)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_897" data-name="Rectangle 897" transform="translate(392.5 537)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="Rectangle_898" data-name="Rectangle 898" transform="translate(231.5 537)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_411" data-name="Line 411" x2="160" transform="translate(557.5 541)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_899" data-name="Rectangle 899" transform="translate(553.5 537)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_412" data-name="Line 412" x2="160" transform="translate(718.5 541)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_900" data-name="Rectangle 900" transform="translate(714.5 537)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_413" data-name="Line 413" x2="160" transform="translate(879.5 541)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_901" data-name="Rectangle 901" transform="translate(875.5 537)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_414" data-name="Line 414" x2="160" transform="translate(1040.5 541)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_902" data-name="Rectangle 902" transform="translate(1036.5 537)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_415" data-name="Line 415" x2="160" transform="translate(1201.5 481)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_903" data-name="Rectangle 903" transform="translate(1197.5 477)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_904" data-name="Rectangle 904" width="16" height="40" rx="2" transform="translate(1193.5 491)" fill="#529a2d"/>
+    <text id="Boon_Lay" data-name="Boon Lay" transform="translate(1215.5 527)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Boon Lay</tspan></text>
+    <text id="EW27" transform="translate(1215.5 509)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW27</tspan></text>
+    <line id="Line_416" data-name="Line 416" x2="160" transform="translate(1201.5 541)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_905" data-name="Rectangle 905" transform="translate(1197.5 537)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="Rectangle_906" data-name="Rectangle 906" transform="translate(1358.5 477)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_907" data-name="Rectangle 907" width="16" height="40" rx="2" transform="translate(1354.5 491)" fill="#529a2d"/>
+    <text id="Lakeside" transform="translate(1376.5 527)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Lakeside</tspan></text>
+    <text id="EW26" transform="translate(1376.5 509)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW26</tspan></text>
+    <g id="Rectangle_908" data-name="Rectangle 908" transform="translate(1358.5 537)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_417" data-name="Line 417" x2="160" transform="translate(1523.5 481)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_418" data-name="Line 418" x2="160" transform="translate(1523.5 541)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_909" data-name="Rectangle 909" transform="translate(1519.5 477)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_910" data-name="Rectangle 910" width="16" height="40" rx="2" transform="translate(1515.5 491)" fill="#529a2d"/>
+    <text id="Chinese_Gardens" data-name="Chinese Gardens" transform="translate(1537.5 527)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Chinese Gardens</tspan></text>
+    <text id="EW25" transform="translate(1537.5 509)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW25</tspan></text>
+    <g id="Rectangle_911" data-name="Rectangle 911" transform="translate(1519.5 537)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="Rectangle_912" data-name="Rectangle 912" transform="translate(1680.5 477)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_913" data-name="Rectangle 913" width="16" height="40" rx="2" transform="translate(1676.5 491)" fill="#529a2d"/>
+    <text id="Jurong_East" data-name="Jurong East" transform="translate(1698.5 527)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Jurong East</tspan></text>
+    <text id="EW24" transform="translate(1698.5 509)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW24</tspan></text>
+    <g id="Rectangle_914" data-name="Rectangle 914" transform="translate(1680.5 537)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_419" data-name="Line 419" y1="60" transform="translate(1724.5 539.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_420" data-name="Line 420" y1="180" transform="translate(1785.5 479.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_421" data-name="Line 421" x2="100" transform="translate(1684.5 658)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_422" data-name="Line 422" x2="40" transform="translate(1684.5 598)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_915" data-name="Rectangle 915" transform="translate(1680.5 594)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_916" data-name="Rectangle 916" width="16" height="40" rx="2" transform="translate(1676.5 608)" fill="#529a2d"/>
+    <text id="Clementi" transform="translate(1698.5 644)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Clementi</tspan></text>
+    <text id="EW23" transform="translate(1698.5 626)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW23</tspan></text>
+    <g id="Rectangle_917" data-name="Rectangle 917" transform="translate(1680.5 654)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_425" data-name="Line 425" x2="160" transform="translate(235.5 714.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_426" data-name="Line 426" x2="160" transform="translate(396.5 714.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <rect id="Rectangle_918" data-name="Rectangle 918" width="16" height="40" rx="2" transform="translate(388.5 724.5)" fill="#529a2d"/>
+    <g id="Rectangle_919" data-name="Rectangle 919" transform="translate(392.5 710.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_920" data-name="Rectangle 920" width="16" height="40" rx="2" transform="translate(227.5 724.5)" fill="#529a2d"/>
+    <g id="Rectangle_921" data-name="Rectangle 921" transform="translate(231.5 710.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="City_Hall" data-name="City Hall" transform="translate(249.5 760.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">City Hall</tspan></text>
+    <text id="EW13" transform="translate(249.5 742.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW13</tspan></text>
+    <text id="Bugis" transform="translate(410.5 760.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Bugis</tspan></text>
+    <text id="EW12" transform="translate(410.5 742.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW12</tspan></text>
+    <line id="Line_427" data-name="Line 427" x2="160" transform="translate(557.5 714.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <rect id="Rectangle_922" data-name="Rectangle 922" width="16" height="40" rx="2" transform="translate(549.5 724.5)" fill="#529a2d"/>
+    <g id="Rectangle_923" data-name="Rectangle 923" transform="translate(553.5 710.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Lavender" transform="translate(571.5 760.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Lavender</tspan></text>
+    <text id="EW11" transform="translate(571.5 742.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW11</tspan></text>
+    <line id="Line_428" data-name="Line 428" x2="160" transform="translate(718.5 714.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <rect id="Rectangle_924" data-name="Rectangle 924" width="16" height="40" rx="2" transform="translate(710.5 724.5)" fill="#529a2d"/>
+    <g id="Rectangle_925" data-name="Rectangle 925" transform="translate(714.5 710.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Kallang" transform="translate(732.5 760.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Kallang</tspan></text>
+    <text id="EW10" transform="translate(732.5 742.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW10</tspan></text>
+    <line id="Line_429" data-name="Line 429" x2="160" transform="translate(879.5 714.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <rect id="Rectangle_926" data-name="Rectangle 926" width="16" height="40" rx="2" transform="translate(871.5 724.5)" fill="#529a2d"/>
+    <g id="Rectangle_927" data-name="Rectangle 927" transform="translate(875.5 710.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Aljunied" transform="translate(893.5 760.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Aljunied</tspan></text>
+    <text id="EW9" transform="translate(893.5 742.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW9</tspan></text>
+    <line id="Line_430" data-name="Line 430" x2="160" transform="translate(1040.5 714.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_928" data-name="Rectangle 928" transform="translate(1036.5 710.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_929" data-name="Rectangle 929" width="16" height="40" rx="2" transform="translate(1032.5 724.5)" fill="#529a2d"/>
+    <text id="Paya_Lebar" data-name="Paya Lebar" transform="translate(1054.5 760.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Paya Lebar</tspan></text>
+    <text id="EW8" transform="translate(1054.5 742.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW8</tspan></text>
+    <line id="Line_431" data-name="Line 431" x2="160" transform="translate(235.5 774.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <line id="Line_432" data-name="Line 432" x2="160" transform="translate(396.5 774.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_930" data-name="Rectangle 930" transform="translate(392.5 770.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="Rectangle_931" data-name="Rectangle 931" transform="translate(231.5 770.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_433" data-name="Line 433" x2="160" transform="translate(557.5 774.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_932" data-name="Rectangle 932" transform="translate(553.5 770.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_434" data-name="Line 434" x2="160" transform="translate(718.5 774.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_933" data-name="Rectangle 933" transform="translate(714.5 770.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_435" data-name="Line 435" x2="160" transform="translate(879.5 774.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_934" data-name="Rectangle 934" transform="translate(875.5 770.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_436" data-name="Line 436" x2="160" transform="translate(1040.5 774.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_935" data-name="Rectangle 935" transform="translate(1036.5 770.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_437" data-name="Line 437" x2="160" transform="translate(1201.5 714.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_936" data-name="Rectangle 936" transform="translate(1197.5 710.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_937" data-name="Rectangle 937" width="16" height="40" rx="2" transform="translate(1193.5 724.5)" fill="#529a2d"/>
+    <text id="Eunos" transform="translate(1215.5 760.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Eunos</tspan></text>
+    <text id="EW7" transform="translate(1215.5 742.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW7</tspan></text>
+    <line id="Line_438" data-name="Line 438" x2="160" transform="translate(1201.5 774.5)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <g id="Rectangle_938" data-name="Rectangle 938" transform="translate(1197.5 770.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="Rectangle_939" data-name="Rectangle 939" transform="translate(1358.5 710.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_940" data-name="Rectangle 940" width="16" height="40" rx="2" transform="translate(1354.5 724.5)" fill="#529a2d"/>
+    <text id="Kembangan" transform="translate(1376.5 760.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Kembangan</tspan></text>
+    <text id="EW6" transform="translate(1376.5 742.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">EW6</tspan></text>
+    <g id="Rectangle_941" data-name="Rectangle 941" transform="translate(1358.5 770.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_945" data-name="Rectangle 945" width="1" height="2" transform="translate(250.499 477.002)" fill="#e7f37a"/>
+    <rect id="Rectangle_946" data-name="Rectangle 946" width="1" height="2" transform="translate(250.499 483.002)" fill="#e7f37a"/>
+    <line id="Line_472" data-name="Line 472" x2="160" transform="translate(881 949)" fill="none" stroke="#529a2d" stroke-width="3"/>
+    <rect id="Rectangle_976" data-name="Rectangle 976" width="16" height="40" rx="2" transform="translate(873 959)" fill="#529a2d"/>
+    <g id="Rectangle_977" data-name="Rectangle 977" transform="translate(877 945)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Changi_Airport" data-name="Changi Airport" transform="translate(895 995)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Changi Airport</tspan></text>
+    <text id="CG2" transform="translate(895 977)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">CG2</tspan></text>
+    <g id="Rectangle_978" data-name="Rectangle 978" transform="translate(1038 945)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_979" data-name="Rectangle 979" width="16" height="40" rx="2" transform="translate(1034 959)" fill="#529a2d"/>
+    <text id="Expo" transform="translate(1056 995)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Expo</tspan></text>
+    <text id="CG1" transform="translate(1056 977)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">CG1</tspan></text>
+    <g id="Rectangle_981" data-name="Rectangle 981" transform="translate(877 1005)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="Rectangle_982" data-name="Rectangle 982" transform="translate(1038 1005)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <path id="Path_391" data-name="Path 391" d="M0,0H6V.679a5.618,5.618,0,0,1-.992,1.378A1.758,1.758,0,0,1,3.915,2.5H0Z" transform="translate(1071 948)" fill="#529a2d"/>
+    <path id="Path_392" data-name="Path 392" d="M0,0H6V.679a5.618,5.618,0,0,1-.992,1.378A1.758,1.758,0,0,1,3.915,2.5H0Z" transform="translate(1107 1008)" fill="#529a2d"/>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  min-width: max-content;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.Train {
+  --current-left: 0px;
+  --current-top: 0px;
+  --delta-left: 0px;
+  --delta-top: 0px;
+  position: absolute;
+  left: var(--current-left);
+  top: var(--current-top);
+}
+
+.TrainMove {
+  animation: glide 1s ease-in-out forwards;
+}
+
+@keyframes glide {
+  100% {
+    translate: var(--delta-left) var(--delta-top);
+  }
+}
+
+.NslMap {
+  transform-origin: center;
+}
