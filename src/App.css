@@ -29,22 +29,12 @@
   top: var(--current-top);
 }
 
-.TrainMove {
-  animation: glide 1s ease-in-out forwards;
-}
-
 .TrainOpen {
   animation: door-open 1s ease-in-out forwards;
 }
 
 .TrainClose {
   animation: door-close 1s ease-in-out forwards;
-}
-
-@keyframes glide {
-  100% {
-    translate: var(--delta-left) var(--delta-top);
-  }
 }
 
 @keyframes door-open {

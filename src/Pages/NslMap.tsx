@@ -18,6 +18,9 @@ const sampleNslData = sampleData.filter(
   (item) => item.line_code === "NSL" && item.platform_code !== null
 );
 
+const adjustX = (x: number) => x - 11;
+const adjustY = (y: number) => y - 11;
+
 export function NslMap(props: { provider: Provider }) {
   const { instance } = useMsal();
   const isAuthenticated = useIsAuthenticated();
@@ -54,7 +57,7 @@ export function NslMap(props: { provider: Provider }) {
             for (let i = nextFrame.length - 1; i >= 0; i--) {
               for (let j = 0; j < i; j++)
                 if (nextFrame[j].station_code === nextFrame[i].station_code) {
-                  nextFrame.splice(i, 1);
+                  nextFrame.splice(j, 1);
                   break;
                 }
             }
@@ -106,10 +109,12 @@ export function NslMap(props: { provider: Provider }) {
               }
 
               // Calculate distance to move the train sprite by
-              const stn_left =
-                stn.getBoundingClientRect().x + window.scrollX - 11;
-              const stn_top =
-                stn.getBoundingClientRect().y + window.scrollY - 11;
+              const stn_left = adjustX(
+                stn.getBoundingClientRect().x + window.scrollX
+              );
+              const stn_top = adjustY(
+                stn.getBoundingClientRect().y + window.scrollY
+              );
               trainSprite.style.setProperty(
                 "--delta-left",
                 (stn_left - curr_left).toString() + "px"
@@ -169,16 +174,12 @@ export function NslMap(props: { provider: Provider }) {
               style={{
                 position: "absolute",
                 left:
-                  (
-                    stn.getBoundingClientRect().x +
-                    window.scrollX -
-                    11
+                  adjustX(
+                    stn.getBoundingClientRect().x + window.scrollX
                   ).toString() + "px",
                 top:
-                  (
-                    stn.getBoundingClientRect().y +
-                    window.scrollY -
-                    11
+                  adjustY(
+                    stn.getBoundingClientRect().y + window.scrollY
                   ).toString() + "px",
                 filter:
                   item.status === "OPENED"
