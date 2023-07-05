@@ -1,3 +1,9 @@
+Migrated from Create React App to Vite:
+
+https://www.crocoder.dev/blog/create-react-app-is-dead-what-are-the-alternatives/
+
+Can consider migrating to Next.js as well.
+
 Azure AD Libraries:
 
 https://azuread.github.io/microsoft-authentication-library-for-js/ref/modules/_azure_msal_react.html
@@ -8,19 +14,20 @@ React Error Boundary: https://github.com/bvaughn/react-error-boundary
 
 Configuring auto formatting: https://www.alphr.com/use-prettier-vs-code/
 
-Setup: `npm install`
-Don't worry if warnings show up: https://github.com/facebook/create-react-app/issues/11174
+Setup with `npm install`
 
-To lint, run `npx eslint .`
+Lint with `npm run lint`
 
 Testing library docs:
 
-https://www.npmjs.com/package/msal-react-tester
+`MsalReactTester` adapted from https://www.npmjs.com/package/msal-react-tester
+
 https://testing-library.com/docs/
+
+https://testing-library.com/docs/user-event/intro
+
 https://github.com/testing-library/react-testing-library
 
-Run tests with `npm test`
-
-Use for further testing:
-
 https://www.npmjs.com/package/msw
+
+Run tests with `npm test`, `npm run test:coverage` or `npm run test:no-watch`
