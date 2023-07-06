@@ -1743,6 +1743,28 @@ const NslSvg = (props: SVGProps<SVGSVGElement>) => (
         <rect width={8} height={8} stroke="none" rx={2} />
         <rect width={7} height={7} x={0.5} y={0.5} fill="none" rx={1.5} />
       </g>
+      <g
+        id="RFP CTH"
+        data-name="Rectangle 843"
+        transform="translate(1117.5 375.5)"
+        fill="#fff"
+        filter="opacity(0)"
+        stroke="#707070"
+      >
+        <rect width="8" height="8" rx="2" stroke="none" />
+        <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none" />
+      </g>
+      <g
+        id="CTH RFP"
+        data-name="Rectangle 844"
+        transform="translate(1117.5 315.5)"
+        fill="#fff"
+        filter="opacity(0)"
+        stroke="#707070"
+      >
+        <rect width="8" height="8" rx="2" stroke="none" />
+        <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none" />
+      </g>
       <path
         fill="none"
         stroke="#c13e3e"
@@ -1806,6 +1828,28 @@ const NslSvg = (props: SVGProps<SVGSVGElement>) => (
       >
         <rect width={8} height={8} stroke="none" rx={2} />
         <rect width={7} height={7} x={0.5} y={0.5} fill="none" rx={1.5} />
+      </g>
+      <g
+        id="MRB RFP"
+        data-name="Rectangle 841"
+        transform="translate(1278.5 375.5)"
+        fill="#fff"
+        filter="opacity(0)"
+        stroke="#707070"
+      >
+        <rect width="8" height="8" rx="2" stroke="none" />
+        <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none" />
+      </g>
+      <g
+        id="RFP MRB"
+        data-name="Rectangle 842"
+        transform="translate(1278.5 315.5)"
+        fill="#fff"
+        filter="opacity(0)"
+        stroke="#707070"
+      >
+        <rect width="8" height="8" rx="2" stroke="none" />
+        <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none" />
       </g>
       <g
         fill="#fff"
@@ -1912,14 +1956,36 @@ const NslSvg = (props: SVGProps<SVGSVGElement>) => (
         </tspan>
       </text>
       <g
+        id="MSP A"
         fill="#fff"
         stroke="#707070"
         data-name="Rectangle 838"
         transform="translate(1520 375.5)"
-        id="MSP A"
       >
         <rect width={8} height={8} stroke="none" rx={2} />
         <rect width={7} height={7} x={0.5} y={0.5} fill="none" rx={1.5} />
+      </g>
+      <g
+        id="MSP MRB"
+        data-name="Rectangle 839"
+        transform="translate(1439.5 375.5)"
+        filter="opacity(0)"
+        fill="#fff"
+        stroke="#707070"
+      >
+        <rect width="8" height="8" rx="2" stroke="none" />
+        <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none" />
+      </g>
+      <g
+        id="MRB MSP"
+        data-name="Rectangle 840"
+        transform="translate(1439.5 315.5)"
+        filter="opacity(0)"
+        fill="#fff"
+        stroke="#707070"
+      >
+        <rect width="8" height="8" rx="2" stroke="none" />
+        <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none" />
       </g>
     </g>
   </svg>

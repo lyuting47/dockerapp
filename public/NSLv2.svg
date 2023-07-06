@@ -1,0 +1,617 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1659" height="302" viewBox="0 0 1659 302">
+  <g id="NSL" transform="translate(-131 -82)">
+    <line id="Line_348" data-name="Line 348" x1="100" transform="translate(136 202.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_349" data-name="Line 349" x1="40" transform="translate(196 262.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_350" data-name="Line 350" y1="60" transform="translate(196 261)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_351" data-name="Line 351" y1="180" transform="translate(135 201)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_352" data-name="Line 352" x1="100" transform="translate(136 379.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_353" data-name="Line 353" x1="40" transform="translate(196 319.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_330" data-name="Line 330" x2="160" transform="translate(1363 203)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_331" data-name="Line 331" x2="160" transform="translate(1363 263)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_332" data-name="Line 332" x2="160" transform="translate(236 203)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_333" data-name="Line 333" x2="160" transform="translate(397 203)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <rect id="BDL" width="16" height="40" rx="2" transform="translate(389 213)" fill="#c13e3e"/>
+    <g id="BDL_A" data-name="BDL A" transform="translate(393 199)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="TAP" width="16" height="40" rx="2" transform="translate(228 213)" fill="#c13e3e"/>
+    <g id="TAP_A" data-name="TAP A" transform="translate(232 199)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Toa_Payoh" data-name="Toa Payoh" transform="translate(250 249)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Toa Payoh</tspan></text>
+    <text id="NS19" transform="translate(250 231)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS19</tspan></text>
+    <text id="Bradell" transform="translate(411 249)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Bradell</tspan></text>
+    <text id="NS18" transform="translate(411 231)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS18</tspan></text>
+    <line id="Line_334" data-name="Line 334" x2="160" transform="translate(558 203)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <rect id="BSH" width="16" height="40" rx="2" transform="translate(550 213)" fill="#c13e3e"/>
+    <g id="BSH_A" data-name="BSH A" transform="translate(554 199)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Bishan" transform="translate(572 249)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Bishan</tspan></text>
+    <text id="NS17" transform="translate(572 231)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS17</tspan></text>
+    <line id="Line_335" data-name="Line 335" x2="160" transform="translate(719 203)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <rect id="AMK" width="16" height="40" rx="2" transform="translate(711 213)" fill="#c13e3e"/>
+    <g id="AMK_B" data-name="AMK B" transform="translate(715 199)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Ang_Mo_Kio" data-name="Ang Mo Kio" transform="translate(733 249)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Ang Mo Kio</tspan></text>
+    <text id="NS16" transform="translate(733 231)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS16</tspan></text>
+    <line id="Line_336" data-name="Line 336" x2="160" transform="translate(880 203)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <rect id="YCK" width="16" height="40" rx="2" transform="translate(872 213)" fill="#c13e3e"/>
+    <g id="YCK_A" data-name="YCK A" transform="translate(876 199)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Yio_Chu_Kang" data-name="Yio Chu Kang" transform="translate(894 249)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Yio Chu Kang</tspan></text>
+    <text id="NS15" transform="translate(894 231)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS15</tspan></text>
+    <line id="Line_337" data-name="Line 337" x2="160" transform="translate(1041 203)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="KTB_A" data-name="KTB A" transform="translate(1037 199)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="KTB" width="16" height="40" rx="2" transform="translate(1033 213)" fill="#c13e3e"/>
+    <text id="Khatib" transform="translate(1055 249)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Khatib</tspan></text>
+    <text id="NS14" transform="translate(1055 231)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS14</tspan></text>
+    <line id="Line_338" data-name="Line 338" x2="160" transform="translate(236 263)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_339" data-name="Line 339" x2="160" transform="translate(397 263)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="BDL_B" data-name="BDL B" transform="translate(393 259)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="TAP_B" data-name="TAP B" transform="translate(232 259)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_340" data-name="Line 340" x2="160" transform="translate(558 263)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="BSH_B" data-name="BSH B" transform="translate(554 259)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_341" data-name="Line 341" x2="160" transform="translate(719 263)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="AMK_A" data-name="AMK A" transform="translate(715 259)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_342" data-name="Line 342" x2="160" transform="translate(880 263)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="YCK_B" data-name="YCK B" transform="translate(876 259)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_343" data-name="Line 343" x2="160" transform="translate(1041 263)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="KTB_B" data-name="KTB B" transform="translate(1037 259)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_344" data-name="Line 344" x2="160" transform="translate(1202 203)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="YIS_A" data-name="YIS A" transform="translate(1198 199)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="YIS" width="16" height="40" rx="2" transform="translate(1194 213)" fill="#c13e3e"/>
+    <text id="Yishun" transform="translate(1216 249)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Yishun</tspan></text>
+    <text id="NS13" transform="translate(1216 231)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS13</tspan></text>
+    <line id="Line_345" data-name="Line 345" x2="160" transform="translate(1202 263)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="YIS_B" data-name="YIS B" transform="translate(1198 259)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="CBR_A" data-name="CBR A" transform="translate(1359 199)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="CBR" width="16" height="40" rx="2" transform="translate(1355 213)" fill="#c13e3e"/>
+    <text id="Canberra" transform="translate(1377 249)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Canberra</tspan></text>
+    <text id="NS12" transform="translate(1377 231)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS12</tspan></text>
+    <g id="CBR_B" data-name="CBR B" transform="translate(1359 259)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_346" data-name="Line 346" x2="160" transform="translate(1524 203)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_347" data-name="Line 347" x2="160" transform="translate(1524 263)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="SBW_A" data-name="SBW A" transform="translate(1520 199)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="SBW" width="16" height="40" rx="2" transform="translate(1516 213)" fill="#c13e3e"/>
+    <text id="Sembawang" transform="translate(1538 249)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Sembawang</tspan></text>
+    <text id="NS11" transform="translate(1538 231)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS11</tspan></text>
+    <g id="SBW_B" data-name="SBW B" transform="translate(1520 259)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_325" data-name="Line 325" x2="100" transform="translate(1685 86)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_326" data-name="Line 326" x2="40" transform="translate(1685 146)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_320" data-name="Line 320" x2="160" transform="translate(1363 86)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_321" data-name="Line 321" x2="160" transform="translate(1363 146)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_183" data-name="Line 183" x2="160" transform="translate(236 86)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_184" data-name="Line 184" x2="160" transform="translate(397 86)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_185" data-name="Line 185" x2="60" transform="translate(176 86)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <rect id="BBT" width="16" height="40" rx="2" transform="translate(389 96)" fill="#c13e3e"/>
+    <g id="BBT_B" data-name="BBT B" transform="translate(393 82)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="JUR" width="16" height="40" rx="2" transform="translate(228 96)" fill="#c13e3e"/>
+    <g id="JUR_E" data-name="JUR E" transform="translate(232 82)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Jurong_East" data-name="Jurong East" transform="translate(250 132)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Jurong East</tspan></text>
+    <text id="NS1" transform="translate(250 114)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS1</tspan></text>
+    <text id="Bukit_Batok" data-name="Bukit Batok" transform="translate(411 132)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Bukit Batok</tspan></text>
+    <text id="NS2" transform="translate(411 114)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS2</tspan></text>
+    <line id="Line_186" data-name="Line 186" x2="160" transform="translate(558 86)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <rect id="BGB" width="16" height="40" rx="2" transform="translate(550 96)" fill="#c13e3e"/>
+    <g id="BGB_B" data-name="BGB B" transform="translate(554 82)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Bukit_Gombak" data-name="Bukit Gombak" transform="translate(572 132)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Bukit Gombak</tspan></text>
+    <text id="NS3" transform="translate(572 114)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS3</tspan></text>
+    <line id="Line_187" data-name="Line 187" x2="160" transform="translate(719 86)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <rect id="Rectangle_617" data-name="Rectangle 617" width="16" height="40" rx="2" transform="translate(711 96)" fill="#c13e3e"/>
+    <g id="BGB_CCK" data-name="BGB CCK" transform="translate(715 82)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Bricklands" transform="translate(733 132)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Bricklands</tspan></text>
+    <text id="NS3A" transform="translate(733 114)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS3A</tspan></text>
+    <line id="Line_188" data-name="Line 188" x2="160" transform="translate(880 86)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <rect id="CCK" width="16" height="40" rx="2" transform="translate(872 96)" fill="#c13e3e"/>
+    <g id="CCK_B" data-name="CCK B" transform="translate(876 82)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Choa_Chu_Kang" data-name="Choa Chu Kang" transform="translate(894 132)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Choa Chu Kang</tspan></text>
+    <text id="NS4" transform="translate(894 114)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS4</tspan></text>
+    <line id="Line_189" data-name="Line 189" x2="160" transform="translate(1041 86)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="YWT_B" data-name="YWT B" transform="translate(1037 82)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="YWT" width="16" height="40" rx="2" transform="translate(1033 96)" fill="#c13e3e"/>
+    <text id="Yew_Tee" data-name="Yew Tee" transform="translate(1055 132)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Yew Tee</tspan></text>
+    <text id="NS5" transform="translate(1055 114)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS5</tspan></text>
+    <line id="Line_190" data-name="Line 190" x2="160" transform="translate(236 146)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_191" data-name="Line 191" x2="160" transform="translate(397 146)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_192" data-name="Line 192" x2="60" transform="translate(176 146)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="BBT_A" data-name="BBT A" transform="translate(393 142)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="JUR_D" data-name="JUR D" transform="translate(232 142)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_193" data-name="Line 193" x2="160" transform="translate(558 146)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="BGB_A" data-name="BGB A" transform="translate(554 142)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_194" data-name="Line 194" x2="160" transform="translate(719 146)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="CCK_BGB" data-name="CCK BGB" transform="translate(715 142)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_195" data-name="Line 195" x2="160" transform="translate(880 146)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="CCK_A" data-name="CCK A" transform="translate(876 142)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_196" data-name="Line 196" x2="160" transform="translate(1041 146)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="YWT_A" data-name="YWT A" transform="translate(1037 142)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_197" data-name="Line 197" x2="160" transform="translate(1202 86)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="YWT_KRJ" data-name="YWT KRJ" transform="translate(1198 82)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_630" data-name="Rectangle 630" width="16" height="40" rx="2" transform="translate(1194 96)" fill="#c13e3e"/>
+    <text id="Sungei_Gadut" data-name="Sungei Gadut" transform="translate(1216 132)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Sungei Gadut</tspan></text>
+    <text id="NS6" transform="translate(1216 114)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS6</tspan></text>
+    <line id="Line_198" data-name="Line 198" x2="160" transform="translate(1202 146)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="KRJ_YWT" data-name="KRJ YWT" transform="translate(1198 142)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="KRJ_B" data-name="KRJ B" transform="translate(1359 82)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="KRJ" width="16" height="40" rx="2" transform="translate(1355 96)" fill="#c13e3e"/>
+    <text id="Kranji" transform="translate(1377 132)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Kranji</tspan></text>
+    <text id="NS7" transform="translate(1377 114)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS7</tspan></text>
+    <g id="KRJ_A" data-name="KRJ A" transform="translate(1359 142)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_322" data-name="Line 322" x2="160" transform="translate(1524 86)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_323" data-name="Line 323" x2="160" transform="translate(1524 146)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="MSL_B" data-name="MSL B" transform="translate(1520 82)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="MSL" width="16" height="40" rx="2" transform="translate(1516 96)" fill="#c13e3e"/>
+    <text id="Marsiling" transform="translate(1538 132)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Marsiling</tspan></text>
+    <text id="NS8" transform="translate(1538 114)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS8</tspan></text>
+    <g id="MSL_A" data-name="MSL A" transform="translate(1520 142)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="WDL_B" data-name="WDL B" transform="translate(1681 82)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="WDL" width="16" height="40" rx="2" transform="translate(1677 96)" fill="#c13e3e"/>
+    <text id="Woodlands" transform="translate(1699 132)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Woodlands</tspan></text>
+    <text id="NS9" transform="translate(1699 114)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS9</tspan></text>
+    <g id="WDL_A" data-name="WDL A" transform="translate(1681 142)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_324" data-name="Line 324" y1="60" transform="translate(1725 144.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_327" data-name="Line 327" y1="180" transform="translate(1786 84.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_328" data-name="Line 328" x2="100" transform="translate(1685 263)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_329" data-name="Line 329" x2="40" transform="translate(1685 203)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="ADM_A" data-name="ADM A" transform="translate(1681 199)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="ADM" width="16" height="40" rx="2" transform="translate(1677 213)" fill="#c13e3e"/>
+    <text id="Admirality" transform="translate(1699 249)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Admirality</tspan></text>
+    <text id="NS10" transform="translate(1699 231)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS10</tspan></text>
+    <g id="ADM_B" data-name="ADM B" transform="translate(1681 259)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_354" data-name="Line 354" x2="160" transform="translate(1363 319.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_355" data-name="Line 355" x2="160" transform="translate(1363 379.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_356" data-name="Line 356" x2="160" transform="translate(236 319.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_357" data-name="Line 357" x2="160" transform="translate(397 319.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <rect id="NEW" width="16" height="40" rx="2" transform="translate(389 329.5)" fill="#c13e3e"/>
+    <g id="NEW_B" data-name="NEW B" transform="translate(393 315.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="NOV" width="16" height="40" rx="2" transform="translate(228 329.5)" fill="#c13e3e"/>
+    <g id="NOV_B" data-name="NOV B" transform="translate(232 315.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Novena" transform="translate(250 365.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Novena</tspan></text>
+    <text id="NS20" transform="translate(250 347.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS20</tspan></text>
+    <text id="Newton" transform="translate(411 365.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Newton</tspan></text>
+    <text id="NS21" transform="translate(411 347.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS21</tspan></text>
+    <line id="Line_358" data-name="Line 358" x2="160" transform="translate(558 319.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <rect id="ORC" width="16" height="40" rx="2" transform="translate(550 329.5)" fill="#c13e3e"/>
+    <g id="ORC_B" data-name="ORC B" transform="translate(554 315.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Orchard" transform="translate(572 365.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Orchard</tspan></text>
+    <text id="NS22" transform="translate(572 347.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS22</tspan></text>
+    <line id="Line_359" data-name="Line 359" x2="160" transform="translate(719 319.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <rect id="SOM" width="16" height="40" rx="2" transform="translate(711 329.5)" fill="#c13e3e"/>
+    <g id="SOM_B" data-name="SOM B" transform="translate(715 315.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Sommerset" transform="translate(733 365.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Sommerset</tspan></text>
+    <text id="NS23" transform="translate(733 347.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS23</tspan></text>
+    <line id="Line_360" data-name="Line 360" x2="160" transform="translate(880 319.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <rect id="DBG" width="16" height="40" rx="2" transform="translate(872 329.5)" fill="#c13e3e"/>
+    <g id="DBG_B" data-name="DBG B" transform="translate(876 315.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <text id="Dhoby_Ghaut" data-name="Dhoby Ghaut" transform="translate(894 365.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Dhoby Ghaut</tspan></text>
+    <text id="NS24" transform="translate(894 347.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS24</tspan></text>
+    <line id="Line_361" data-name="Line 361" x2="160" transform="translate(1041 319.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="CTH_C" data-name="CTH C" transform="translate(1037 315.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="CTH" width="16" height="40" rx="2" transform="translate(1033 329.5)" fill="#c13e3e"/>
+    <text id="City_Hall" data-name="City Hall" transform="translate(1055 365.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">City Hall</tspan></text>
+    <text id="NS25" transform="translate(1055 347.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS25</tspan></text>
+    <line id="Line_362" data-name="Line 362" x2="160" transform="translate(236 379.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_363" data-name="Line 363" x2="160" transform="translate(397 379.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="NEW_A" data-name="NEW A" transform="translate(393 375.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="NOV_A" data-name="NOV A" transform="translate(232 375.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_364" data-name="Line 364" x2="160" transform="translate(558 379.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="ORC_A" data-name="ORC A" transform="translate(554 375.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_365" data-name="Line 365" x2="160" transform="translate(719 379.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="SOM_A" data-name="SOM A" transform="translate(715 375.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_366" data-name="Line 366" x2="160" transform="translate(880 379.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="DBG_A" data-name="DBG A" transform="translate(876 375.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_367" data-name="Line 367" x2="160" transform="translate(1041 379.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="CTH_A" data-name="CTH A" transform="translate(1037 375.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_368" data-name="Line 368" x2="160" transform="translate(1202 319.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="RFP_D" data-name="RFP D" transform="translate(1198 315.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="RFP" width="16" height="40" rx="2" transform="translate(1194 329.5)" fill="#c13e3e"/>
+    <text id="Raffles_Place" data-name="Raffles Place" transform="translate(1216 365.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Raffles Place</tspan></text>
+    <text id="NS26" transform="translate(1216 347.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS26</tspan></text>
+    <line id="Line_369" data-name="Line 369" x2="160" transform="translate(1202 379.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="RFP_B" data-name="RFP B" transform="translate(1198 375.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="MRB_B" data-name="MRB B" transform="translate(1359 315.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="MRB" width="16" height="40" rx="2" transform="translate(1355 329.5)" fill="#c13e3e"/>
+    <text id="Marina_Bay" data-name="Marina Bay" transform="translate(1377 365.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Marina Bay</tspan></text>
+    <text id="NS27" transform="translate(1377 347.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS27</tspan></text>
+    <g id="MRB_A" data-name="MRB A" transform="translate(1359 375.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <line id="Line_370" data-name="Line 370" x2="60" transform="translate(1524 319.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <line id="Line_371" data-name="Line 371" x2="60" transform="translate(1524 379.5)" fill="none" stroke="#c13e3e" stroke-width="3"/>
+    <g id="MSP_B" data-name="MSP B" transform="translate(1520 315.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="MSP" width="16" height="40" rx="2" transform="translate(1516 329.5)" fill="#c13e3e"/>
+    <text id="Marina_South_Pier" data-name="Marina South Pier" transform="translate(1538 365.5)" fill="#a8a8a8" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Marina South Pier</tspan></text>
+    <text id="NS28" transform="translate(1538 347.5)" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">NS28</tspan></text>
+    <g id="MSP_A" data-name="MSP A" transform="translate(1520 375.5)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_855" data-name="Rectangle 855" width="1" height="2" transform="translate(250.999 82.002)" fill="#e7f37a"/>
+    <rect id="Rectangle_856" data-name="Rectangle 856" width="1" height="2" transform="translate(250.999 88.002)" fill="#e7f37a"/>
+    <g id="JUR_BBT" data-name="JUR BBT" transform="translate(312 82)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="BBT_JUR" data-name="BBT JUR" transform="translate(312 142)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="BBT_BGB" data-name="BBT BGB" transform="translate(473 82)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="BGB_BBT" data-name="BGB BBT" transform="translate(473 142)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="CCK_YWT" data-name="CCK YWT" transform="translate(956 82)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="YWT_CCK" data-name="YWT CCK" transform="translate(956 142)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="KRJ_MSL" data-name="KRJ MSL" transform="translate(1439 82)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="MSL_KRJ" data-name="MSL KRJ" transform="translate(1439 142)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="MSL_WDL" data-name="MSL WDL" transform="translate(1600 82)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="WDL_MSL" data-name="WDL MSL" transform="translate(1600 142)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="WDL_ADM_1" data-name="WDL ADM 1" transform="translate(1782 82)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="ADM_WDL_3" data-name="ADM WDL 3" transform="translate(1721 142)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="ADM_WDL_2" data-name="ADM WDL 2" transform="translate(1721 171)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="ADM_WDL_1" data-name="ADM WDL 1" transform="translate(1721 199)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="WDL_ADM_2" data-name="WDL ADM 2" transform="translate(1782 171)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="WDL_ADM_3" data-name="WDL ADM 3" transform="translate(1782 259)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="SBW_ADM" data-name="SBW ADM" transform="translate(1600 199)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="ADM_SBW" data-name="ADM SBW" transform="translate(1600 259)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="CBR_SBW" data-name="CBR SBW" transform="translate(1439 199)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="SBW_CBR" data-name="SBW CBR" transform="translate(1439 259)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="YIS_CBR" data-name="YIS CBR" transform="translate(1278 199)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="CBR_YIS" data-name="CBR YIS" transform="translate(1278 259)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="KTB_YIS" data-name="KTB YIS" transform="translate(1117 199)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="YIS_KTB" data-name="YIS KTB" transform="translate(1117 259)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="YCK_KTB" data-name="YCK KTB" transform="translate(956 199)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="KTB_YCK" data-name="KTB YCK" transform="translate(956 259)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="AMK_YCK" data-name="AMK YCK" transform="translate(795 199)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="YCK_AMK" data-name="YCK AMK" transform="translate(795 259)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="BSH_AMK" data-name="BSH AMK" transform="translate(634 199)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="AMK_BSH" data-name="AMK BSH" transform="translate(634 259)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="BDL_BSH" data-name="BDL BSH" transform="translate(473 199)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="BSH_BDL" data-name="BSH BDL" transform="translate(473 259)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="TAP_BDL" data-name="TAP BDL" transform="translate(312 199)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="BDL_TAP" data-name="BDL TAP" transform="translate(312 259)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="NOV_TAP_3" data-name="NOV TAP 3" transform="translate(131 199)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="TAP_NOV_1" data-name="TAP NOV 1" transform="translate(192 259)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="TAP_NOV_2" data-name="TAP NOV 2" transform="translate(192 287)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="TAP_NOV_3" data-name="TAP NOV 3" transform="translate(192 316)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="NOV_TAP_2" data-name="NOV TAP 2" transform="translate(131 287)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="NOV_TAP_1" data-name="NOV TAP 1" transform="translate(131 376)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="NOV_NEW" data-name="NOV NEW" transform="translate(312 315.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="NEW_NOV" data-name="NEW NOV" transform="translate(312 375.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="NEW_ORC" data-name="NEW ORC" transform="translate(473 315.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="ORC_NEW" data-name="ORC NEW" transform="translate(473 375.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="ORC_SOM" data-name="ORC SOM" transform="translate(634 315.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="SOM_ORC" data-name="SOM ORC" transform="translate(634 375.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="SOM_DBG" data-name="SOM DBG" transform="translate(795 315.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="DBG_SOM" data-name="DBG SOM" transform="translate(795 375.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="DBG_CTH" data-name="DBG CTH" transform="translate(956 315.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="CTH_DBG" data-name="CTH DBG" transform="translate(956 375.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="CTH_RFP" data-name="CTH RFP" transform="translate(1117 315.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="RFP_CTH" data-name="RFP CTH" transform="translate(1117 375.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="RFP_MRB" data-name="RFP MRB" transform="translate(1278 315.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="MRB_RFP" data-name="MRB RFP" transform="translate(1278 375.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="MRB_MSP" data-name="MRB MSP" transform="translate(1439 315.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+    <g id="MSP_MRB" data-name="MSP MRB" transform="translate(1439 375.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="8" height="8" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7" height="7" rx="1.5" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -7,7 +7,7 @@ import {
 } from "@azure/msal-react";
 import { InteractionType } from "@azure/msal-browser";
 import { loginRequest } from "../authConfig";
-import NslSvg from "../Components/nslSvg";
+import NslSvgV2 from "../Components/nslSvgV2";
 import Train from "../Components/trainSvg";
 import { RawTrainInfo, getTrainById } from "../rawTrainInfo";
 import sampleData from "./schematics_json_NSEWL.json";
@@ -15,7 +15,7 @@ import Fallback from "../Components/authErrorFallback";
 
 // Filtering some bad data
 const sampleNslData = sampleData.filter(
-  (item) => item.line_code === "NSL" && item.platform_code !== null
+  (item) => item.line_code === "NSL" && item.train_id !== "205"
 );
 
 const adjustX = (x: number) => x - 11;
@@ -47,9 +47,9 @@ export function NslMap(props: { provider: Provider }) {
         <form
           onSubmit={(e) => {
             e.preventDefault();
-            setPage((val) => val + 5);
 
             // Simulating new incoming data and remove any duplicates(?)
+            setPage((val) => val + 5);
             const nextFrame: RawTrainInfo[] = sampleNslData.slice(
               page,
               page + 5
@@ -63,108 +63,157 @@ export function NslMap(props: { provider: Provider }) {
             }
 
             for (let i = 0; i < currFrame.length; i++) {
-              const train = currFrame[i];
-              const trainSprite = document.getElementById(train.train_id);
+              const train_currFrame = currFrame[i];
+              const trainSprite = document.getElementById(
+                train_currFrame.train_id
+              );
               if (trainSprite === null) {
-                console.log("Error locating train id: " + train.train_id);
+                console.log(
+                  "Error locating train id: " + train_currFrame.train_id
+                );
                 continue;
               }
 
-              // Fix position of train sprite
-              const curr_left =
-                trainSprite.getBoundingClientRect().x + window.scrollX;
-              const curr_top =
-                trainSprite.getBoundingClientRect().y + window.scrollY;
-              trainSprite.style.setProperty(
-                "--current-left",
-                curr_left.toString() + "px"
+              // If no new info in next frame, persist the train's current state.
+              const train_nextFrame = getTrainById(
+                nextFrame,
+                train_currFrame.train_id
               );
-              trainSprite.style.setProperty(
-                "--current-top",
-                curr_top.toString() + "px"
-              );
-
-              // Check if train sprite is present in next frame. If not, persist its current state.
-              const train_nextFrame = getTrainById(nextFrame, train.train_id);
               if (train_nextFrame === null) {
-                nextFrame.push(train);
+                nextFrame.push(train_currFrame);
+                continue;
+              }
+              // If position remains the same in next frame, ignore
+              if (
+                train_nextFrame.station_code === train_currFrame.station_code &&
+                train_nextFrame.platform_code === train_currFrame.platform_code
+              ) {
                 continue;
               }
 
-              const stn = document.getElementById(
-                train_nextFrame.station_code +
-                  " " +
-                  (train_nextFrame.platform_code === null
-                    ? "A"
-                    : train_nextFrame.platform_code)
+              // Find location(s) to move train along
+              const locations = Array.from(
+                document.getElementsByClassName(
+                  `${train_nextFrame.station_code}_${
+                    train_nextFrame.platform_code ??
+                    train_nextFrame.next_station_code
+                  }`
+                )
               );
-              if (stn === null) {
+
+              const numOfNodes = locations.length;
+              if (numOfNodes === 0) {
                 console.log(
                   "Error processing next station code " +
                     train_nextFrame.station_code +
-                    " of train id: " +
-                    train.train_id
+                    train_nextFrame.platform_code ??
+                    train_nextFrame.next_station_code +
+                      " of train id: " +
+                      train_currFrame.train_id
                 );
                 continue;
               }
+              // Sort locations
+              locations.sort((a, b) => (a.id < b.id ? -1 : a > b ? 1 : 0));
 
-              // Calculate distance to move the train sprite by
-              const stn_left = adjustX(
-                stn.getBoundingClientRect().x + window.scrollX
-              );
-              const stn_top = adjustY(
-                stn.getBoundingClientRect().y + window.scrollY
-              );
-              trainSprite.style.setProperty(
-                "--delta-left",
-                (stn_left - curr_left).toString() + "px"
-              );
-              trainSprite.style.setProperty(
-                "--delta-top",
-                (stn_top - curr_top).toString() + "px"
-              );
+              for (let i = 0; i < numOfNodes; i++) {
+                const location = locations[i];
+                // Calculate distance and duration to move the train sprite by
+                const curr_left =
+                  trainSprite.getBoundingClientRect().x + window.scrollX;
+                const curr_top =
+                  trainSprite.getBoundingClientRect().y + window.scrollY;
+                const location_left = adjustX(
+                  location.getBoundingClientRect().x + window.scrollX
+                );
+                const location_top = adjustY(
+                  location.getBoundingClientRect().y + window.scrollY
+                );
+                const duration = (1 / numOfNodes) * 1000;
+                const delay = duration * i;
 
-              // Add animations
-              if (train_nextFrame.status === "OPENED") {
-                trainSprite.classList.add("TrainOpen");
+                // Add movement animation
+                trainSprite.animate(
+                  [
+                    {},
+                    {
+                      translate: `${location_left - curr_left}px ${
+                        location_top - curr_top
+                      }px`,
+                    },
+                  ],
+                  {
+                    duration: duration,
+                    delay: delay,
+                    easing: "ease-in-out",
+                    fill: "forwards",
+                  }
+                );
               }
-              if (train_nextFrame.status === "CLOSED") {
-                trainSprite.classList.add("TrainClose");
-              }
+
+              // Fix position and reset animations when done
+              Promise.all(
+                trainSprite
+                  .getAnimations()
+                  .map((animation) => animation.finished)
+              ).then(() => {
+                const curr_left =
+                  trainSprite.getBoundingClientRect().x + window.scrollX;
+                const curr_top =
+                  trainSprite.getBoundingClientRect().y + window.scrollY;
+                trainSprite.style.setProperty(
+                  "left",
+                  curr_left.toString() + "px"
+                );
+                trainSprite.style.setProperty(
+                  "top",
+                  curr_top.toString() + "px"
+                );
+                trainSprite.animate(
+                  [
+                    {},
+                    {
+                      translate: "0px 0px",
+                    },
+                  ],
+                  {
+                    duration: 0,
+                    fill: "forwards",
+                  }
+                );
+              });
             }
 
-            // Stop animations and display new static frame
+            // Display next static frame
             setTimeout(() => {
-              for (let i = 0; i < currFrame.length; i++) {
-                const trainSprite = document.getElementById(
-                  currFrame[i].train_id
-                );
-                if (trainSprite === null) {
-                  continue;
-                }
-                trainSprite.classList.remove("TrainOpen");
-                trainSprite.classList.remove("TrainClose");
-              }
               setCurrFrame(nextFrame);
-            }, 1100);
+            }, 1200);
           }}
         >
           <button type="submit">Next</button>
         </form>
-        <NslSvg />
+        <hr />
+        <NslSvgV2 />
         {currFrame.map((item) => {
-          if (item.platform_code === null) {
-            return;
-          }
-          const stn = document.getElementById(
-            item.station_code + " " + item.platform_code
+          const locations = Array.from(
+            document.getElementsByClassName(
+              `${item.station_code}_${
+                item.platform_code ?? item.next_station_code
+              }`
+            )
           );
-          if (stn === null) {
-            return;
+          if (locations.length === 0) {
+            throw Error(
+              `Location not found in SVG: ${item.station_code}_${
+                item.platform_code ?? item.next_station_code
+              }`
+            );
           }
+          locations.sort((a, b) => (a.id < b.id ? -1 : a > b ? 1 : 0));
+          const location = locations[locations.length - 1];
           const root = document.querySelector(":root");
           if (root === null) {
-            throw Error("No root variables found in CSS");
+            throw Error("CSS root not found");
           }
           const rootStyle = getComputedStyle(root);
           return (
@@ -175,11 +224,11 @@ export function NslMap(props: { provider: Provider }) {
                 position: "absolute",
                 left:
                   adjustX(
-                    stn.getBoundingClientRect().x + window.scrollX
+                    location.getBoundingClientRect().x + window.scrollX
                   ).toString() + "px",
                 top:
                   adjustY(
-                    stn.getBoundingClientRect().y + window.scrollY
+                    location.getBoundingClientRect().y + window.scrollY
                   ).toString() + "px",
                 filter:
                   item.status === "OPENED"

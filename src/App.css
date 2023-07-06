@@ -17,38 +17,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
   min-width: min-content;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .Train {
-  --current-left: 0px;
-  --current-top: 0px;
-  --delta-left: 0px;
-  --delta-top: 0px;
   position: absolute;
-  left: var(--current-left);
-  top: var(--current-top);
-}
-
-.TrainOpen {
-  animation: door-open 1s ease-in-out forwards;
-}
-
-.TrainClose {
-  animation: door-close 1s ease-in-out forwards;
-}
-
-@keyframes door-open {
-  100% {
-    filter: var(--open-color);
-    translate: var(--delta-left) var(--delta-top);
-  }
-}
-
-@keyframes door-close {
-  100% {
-    filter: var(--close-color);
-    translate: var(--delta-left) var(--delta-top);
-  }
 }
 
 .NslMap {
