@@ -1,6 +1,7 @@
 import React from "react";
 import { SVGProps } from "react";
-const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
+
+export const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={1659}
@@ -108,8 +109,7 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         fill="#c13e3e"
       />
       <g
-        id="BDL_A"
-        data-name="BDL A"
+        id="TAP_BDL_2"
         className="BDL_A"
         transform="translate(393 199)"
         fill="#fff"
@@ -256,13 +256,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         fill="#c13e3e"
       />
       <g
-        id="AMK_B"
-        data-name="AMK B"
+        id="BSH_AMK_2"
         className="AMK_B"
         transform="translate(715 199)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="0deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -415,25 +415,25 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="BDL_B"
-        data-name="BDL B"
+        id="BSH_BDL_2"
         className="BDL_B"
         transform="translate(393 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="TAP_B"
-        data-name="TAP B"
+        id="BDL_TAP_2"
         className="TAP_B"
         transform="translate(232 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -448,13 +448,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="BSH_B"
-        data-name="BSH B"
+        id="AMK_BSH_2"
         className="BSH_B"
         transform="translate(554 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -469,13 +469,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="AMK_A"
-        data-name="AMK A"
+        id="YCK_AMK_2"
         className="AMK_A"
         transform="translate(715 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -490,13 +490,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="YCK_B"
-        data-name="YCK B"
+        id="KTB_YCK_2"
         className="YCK_B"
         transform="translate(876 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -511,13 +511,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="KTB_B"
-        data-name="KTB B"
+        id="YIS_KTB_2"
         className="KTB_B"
         transform="translate(1037 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -584,13 +584,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="YIS_B"
-        data-name="YIS B"
+        id="CBR_YIS_2"
         className="YIS_B"
         transform="translate(1198 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -639,13 +639,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         </tspan>
       </text>
       <g
-        id="CBR_B"
-        data-name="CBR B"
+        id="ADM_CBR_2"
         className="CBR_B"
         transform="translate(1359 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -712,13 +712,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         </tspan>
       </text>
       <g
-        id="SBW_B"
-        data-name="SBW B"
+        id="ADM_SBW_2"
         className="SBW_B"
         transform="translate(1520 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -795,13 +795,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         fill="#c13e3e"
       />
       <g
-        id="BBT_B"
-        data-name="BBT B"
+        id="JUR_BBT_2"
         className="BBT_B"
         transform="translate(393 82)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="0deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -816,12 +816,12 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
       />
       <g
         id="JUR_E"
-        data-name="JUR E"
         className="JUR_E"
         transform="translate(232 82)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="0deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -892,13 +892,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         fill="#c13e3e"
       />
       <g
-        id="BGB_B"
-        data-name="BGB B"
+        id="BBT_BGB_2"
         className="BGB_B"
         transform="translate(554 82)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="0deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -946,13 +946,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         fill="#c13e3e"
       />
       <g
-        id="BGB_CCK"
-        data-name="BGB CCK"
+        id="BGB_CCK_1"
         className="BGB_CCK"
         transform="translate(715 82)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="0deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -998,13 +998,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         fill="#c13e3e"
       />
       <g
-        id="CCK_B"
-        data-name="CCK B"
+        id="BGB_CCK_2"
         className="CCK_B"
         transform="translate(876 82)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="0deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -1043,13 +1043,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="YWT_B"
-        data-name="YWT B"
+        id="CCK_YWT_2"
         className="YWT_B"
         transform="translate(1037 82)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="0deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -1114,25 +1114,25 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L60 0"
       />
       <g
-        id="BBT_A"
-        data-name="BBT A"
+        id="BGB_BBT_2"
         className="BBT_A"
         transform="translate(393 142)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="-180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="JUR_D"
-        data-name="JUR D"
+        id="BBT_JUR_2"
         className="JUR_D"
         transform="translate(232 142)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="-180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -1147,13 +1147,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="BGB_A"
-        data-name="BGB A"
+        id="CCK_BGB_2"
         className="BGB_A"
         transform="translate(554 142)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="-180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -1168,13 +1168,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="CCK_BGB"
-        data-name="CCK BGB"
+        id="CCK_BGB_1"
         className="CCK_BGB"
         transform="translate(715 142)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="-180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -1189,13 +1189,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="CCK_A"
-        data-name="CCK A"
+        id="YWT_CCK_2"
         className="CCK_A"
         transform="translate(876 142)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="-180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -1210,13 +1210,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="YWT_A"
-        data-name="YWT A"
+        id="KRJ_YWT_2"
         className="YWT_A"
         transform="translate(1037 142)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="-180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -1231,13 +1231,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="YWT_KRJ"
-        data-name="YWT KRJ"
+        id="YWT_KRJ_1"
         className="YWT_KRJ"
         transform="translate(1198 82)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="0deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -1285,25 +1285,25 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="KRJ_YWT"
-        data-name="KRJ YWT"
+        id="KRJ_YWT_1"
         className="KRJ_YWT"
         transform="translate(1198 142)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="-180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="KRJ_B"
-        data-name="KRJ B"
+        id="YWT_KRJ_2"
         className="KRJ_B"
         transform="translate(1359 82)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="0deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -1340,13 +1340,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         </tspan>
       </text>
       <g
-        id="KRJ_A"
-        data-name="KRJ A"
+        id="MSL_KRJ_2"
         className="KRJ_A"
         transform="translate(1359 142)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="-180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -1370,13 +1370,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="MSL_B"
-        data-name="MSL B"
+        id="KRJ_MSL"
         className="MSL_B"
         transform="translate(1520 82)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="0deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -1413,25 +1413,25 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         </tspan>
       </text>
       <g
-        id="MSL_A"
-        data-name="MSL A"
+        id="WDL_MSL_2"
         className="MSL_A"
         transform="translate(1520 142)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="-180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="WDL_B"
-        data-name="WDL B"
+        id="MSL_WDL_2"
         className="WDL_B"
         transform="translate(1681 82)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="0deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -1468,13 +1468,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         </tspan>
       </text>
       <g
-        id="ADM_WDL_A"
-        data-name="WDL A"
+        id="ADM_WDL_4"
         className="WDL_A"
         transform="translate(1681 142)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="-180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -1516,8 +1516,7 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L40 0"
       />
       <g
-        id="ADM_A"
-        data-name="ADM A"
+        id="SBW_ADM_2"
         className="ADM_A"
         transform="translate(1681 199)"
         fill="#fff"
@@ -1560,12 +1559,12 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
       </text>
       <g
         id="WDL_ADM_4"
-        data-name="ADM B"
         className="ADM_B"
         transform="translate(1681 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -1616,7 +1615,6 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
       />
       <g
         id="NEW_B"
-        data-name="NEW B"
         className="NEW_B"
         transform="translate(393 315.5)"
         fill="#fff"
@@ -1975,13 +1973,14 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="SOM_A"
+        id="DBG_SOM_2"
         data-name="SOM A"
         className="SOM_A"
         transform="translate(715 375.5)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -1996,13 +1995,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="DBG_A"
-        data-name="DBG A"
+        id="CTH_DBG_2"
         className="DBG_A"
         transform="translate(876 375.5)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2017,13 +2016,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="CTH_A"
-        data-name="CTH A"
+        id="RFP_CTH_2"
         className="CTH_A"
         transform="translate(1037 375.5)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2091,13 +2090,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         d="M0 0L160 0"
       />
       <g
-        id="RFP_B"
-        data-name="RFP B"
+        id="MRB_RFP_2"
         className="RFP_B"
         transform="translate(1198 375.5)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2147,13 +2146,13 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         </tspan>
       </text>
       <g
-        id="MRB_A"
-        data-name="MRB A"
+        id="MSP_MRB_2"
         className="MRB_A"
         transform="translate(1359 375.5)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2222,142 +2221,142 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
       </text>
       <g
         id="MSP_A"
-        data-name="MSP A"
         className="MSP_A"
         transform="translate(1520 375.5)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="JUR_BBT"
-        data-name="JUR BBT"
+        id="JUR_BBT_1"
         className="JUR_BBT"
         transform="translate(312 82)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="0deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="BBT_JUR"
-        data-name="BBT JUR"
+        id="BBT_JUR_1"
         className="BBT_JUR"
         transform="translate(312 142)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="-180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="BBT_BGB"
-        data-name="BBT BGB"
+        id="BBT_BGB_1"
         className="BBT_BGB"
         transform="translate(473 82)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="0deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="BGB_BBT"
-        data-name="BGB BBT"
+        id="BGB_BBT_1"
         className="BGB_BBT"
         transform="translate(473 142)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="-180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="CCK_YWT"
-        data-name="CCK YWT"
+        id="CCK_YWT_1"
         className="CCK_YWT"
         transform="translate(956 82)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="0deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="YWT_CCK"
-        data-name="YWT CCK"
+        id="YWT_CCK_1"
         className="YWT_CCK"
         transform="translate(956 142)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="-180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="KRJ_MSL"
-        data-name="KRJ MSL"
+        id="KRJ_MSL_1"
         className="KRJ_MSL"
         transform="translate(1439 82)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="0deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="MSL_KRJ"
-        data-name="MSL KRJ"
+        id="MSL_KRJ_1"
         className="MSL_KRJ"
         transform="translate(1439 142)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="-180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="MSL_WDL"
-        data-name="MSL WDL"
+        id="MSL_WDL_1"
         className="MSL_WDL"
         transform="translate(1600 82)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="0deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="WDL_MSL"
-        data-name="WDL MSL"
+        id="WDL_MSL_1"
         className="WDL_MSL"
         transform="translate(1600 142)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="-180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2371,39 +2370,39 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="0deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
         id="ADM_WDL_3"
-        data-name="ADM WDL 3"
         className="WDL_A"
         transform="translate(1721 142)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="-90deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
         id="ADM_WDL_2"
-        data-name="ADM WDL 2"
         className="ADM_WDL"
         transform="translate(1721 171)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="-90deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
         id="ADM_WDL_1"
-        data-name="ADM WDL 1"
         className="ADM_WDL"
         transform="translate(1721 199)"
         fill="#fff"
@@ -2416,33 +2415,32 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
       </g>
       <g
         id="WDL_ADM_2"
-        data-name="WDL ADM 2"
         className="WDL_ADM"
         transform="translate(1782 171)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="90deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
         id="WDL_ADM_3"
-        data-name="WDL ADM 3"
         className="ADM_B"
         transform="translate(1782 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="90deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="SBW_ADM"
-        data-name="SBW ADM"
+        id="SBW_ADM_1"
         className="SBW_ADM"
         transform="translate(1600 199)"
         fill="#fff"
@@ -2454,14 +2452,14 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="ADM_SBW"
-        data-name="ADM SBW"
+        id="ADM_SBW_1"
         className="ADM_SBW"
         transform="translate(1600 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2480,14 +2478,14 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="SBW_CBR"
-        data-name="SBW CBR"
+        id="SBW_CBR_1"
         className="SBW_CBR"
         transform="translate(1439 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2506,14 +2504,14 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="CBR_YIS"
-        data-name="CBR YIS"
+        id="CBR_YIS_1"
         className="CBR_YIS"
         transform="translate(1278 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2532,14 +2530,14 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="YIS_KTB"
-        data-name="YIS KTB"
+        id="YIS_KTB_1"
         className="YIS_KTB"
         transform="translate(1117 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2558,14 +2556,14 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="KTB_YCK"
-        data-name="KTB YCK"
+        id="KTB_YCK_1"
         className="KTB_YCK"
         transform="translate(956 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2584,14 +2582,14 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="YCK_AMK"
-        data-name="YCK AMK"
+        id="YCK_AMK_1"
         className="YCK_AMK"
         transform="translate(795 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2610,14 +2608,14 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="AMK_BSH"
-        data-name="AMK BSH"
+        id="AMK_BSH_1"
         className="AMK_BSH"
         transform="translate(634 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2636,14 +2634,14 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="BSH_BDL"
-        data-name="BSH BDL"
+        id="BSH_BDL_1"
         className="BSH_BDL"
         transform="translate(473 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2662,14 +2660,14 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="BDL_TAP"
-        data-name="BDL TAP"
+        id="BDL_TAP_1"
         className="BDL_TAP"
         transform="translate(312 259)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2839,14 +2837,14 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="DBG_SOM"
-        data-name="DBG SOM"
+        id="DBG_SOM_1"
         className="DBG_SOM"
         transform="translate(795 375.5)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2865,14 +2863,14 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="CTH_DBG"
+        id="CTH_DBG_1"
         className="CTH_DBG"
-        data-name="CTH DBG"
         transform="translate(956 375.5)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2891,14 +2889,14 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="RFP_CTH"
+        id="RFP_CTH_1"
         className="RFP_CTH"
-        data-name="RFP CTH"
         transform="translate(1117 375.5)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2917,14 +2915,14 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="MRB_RFP"
+        id="MRB_RFP_1"
         className="MRB_RFP"
-        data-name="MRB RFP"
         transform="translate(1278 375.5)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2943,14 +2941,14 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
       </g>
       <g
-        id="MSP_MRB"
+        id="MSP_MRB_1"
         className="MSP_MRB"
-        data-name="MSP MRB"
         transform="translate(1439 375.5)"
         fill="#fff"
         stroke="#707070"
         strokeWidth={1}
         opacity={0}
+        data-angle="180deg"
       >
         <rect width={8} height={8} rx={2} stroke="none" />
         <rect x={0.5} y={0.5} width={7} height={7} rx={1.5} fill="none" />
@@ -2959,4 +2957,5 @@ const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default NslSvgV2;
+export const locationWidth = 8;
+export const locationHeight = 8;
