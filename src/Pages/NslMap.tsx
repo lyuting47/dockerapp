@@ -17,7 +17,7 @@ import { RawTrainInfo, getTrainById } from "../rawTrainInfo";
 import sampleData from "./schematics_json_NSEWL.json";
 import Fallback from "../Components/authErrorFallback";
 
-// Filtering some bad data
+// Filtering sample data
 const sampleNslData = sampleData.filter(
   (train) => train.line_code === "NSL" && train.train_id !== "205"
   // && (item.station_code === "WDL" || item.station_code === "ADM")

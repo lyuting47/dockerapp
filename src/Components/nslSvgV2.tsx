@@ -141,7 +141,6 @@ export const NslSvgV2 = (props: SVGProps<SVGSVGElement>) => (
       </g>
       <text
         id="Toa_Payoh"
-        data-name="Toa Payoh"
         transform="translate(250 249)"
         fill="#a8a8a8"
         fontSize={14}

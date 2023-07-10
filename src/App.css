@@ -18,14 +18,23 @@
   color: white;
   min-width: min-content;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 20px; 
 }
 
 .Train {
   position: absolute;
   transform-origin: center;
+  z-index: 100;
+}
+
+.TrainDesc {
+  position: absolute;
+  transform-origin: center;
+  z-index: 1;
 }
 
 .NslMap {
+  position: absolute;
   transform-origin: center;
+  z-index: 0;
 }
