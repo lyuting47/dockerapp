@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,13 +24,17 @@
 .Train {
   position: absolute;
   transform-origin: center;
-  z-index: 100;
+  z-index: 1;
 }
 
 .TrainDesc {
   position: absolute;
+  outline: 0.1rem solid white;
+  background-color: black;
+  opacity: 70%;
   transform-origin: center;
-  z-index: 1;
+  z-index: 2;
+  font-size: 25%;
 }
 
 .NslMap {

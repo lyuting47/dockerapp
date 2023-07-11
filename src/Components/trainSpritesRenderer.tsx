@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { TrainSvg, trainHeight, trainWidth } from "./trainSvg";
 import { RawTrainInfo } from "../rawTrainInfo";
 import { locationWidth, locationHeight } from "./nslSvgV2";
-import { TrainDescRenderer } from "./trainDescRenderer";
+import { TrainDesc } from "./trainDesc";
 
 export function TrainSpritesRenderer(props: {
   trainInfos: RawTrainInfo[];
@@ -68,10 +68,13 @@ export function TrainSpritesRenderer(props: {
           />
         );
       })}
-      <TrainDescRenderer
-        trainInfos={props.trainInfos}
-        activeDescs={activeDescs}
-      />
+      {props.trainInfos.map((train) => {
+        return (
+          activeDescs.includes(train.train_id) && (
+            <TrainDesc train={train} key={train.train_id} />
+          )
+        );
+      })}
     </>
   );
 }

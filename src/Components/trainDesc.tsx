@@ -24,6 +24,7 @@ export function TrainDesc(props: { train: RawTrainInfo }) {
     <div
       className="TrainDesc"
       style={{
+        width: trainWidth,
         left: `${
           location.getBoundingClientRect().x +
           window.scrollX -
@@ -31,12 +32,17 @@ export function TrainDesc(props: { train: RawTrainInfo }) {
         }px`,
         top: `${
           location.getBoundingClientRect().y +
-          window.scrollY -
-          (trainHeight - locationHeight) / 2
+          window.scrollY +
+          (trainHeight + locationHeight) / 2
         }px`,
       }}
     >
       <p>{props.train.train_id}</p>
+      <p>
+        {props.train.station_code +
+          "_" +
+          (props.train.platform_code ?? props.train.next_station_code)}
+      </p>
     </div>
   );
 }
