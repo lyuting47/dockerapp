@@ -10,7 +10,7 @@ export function Home(props: { provider: Provider }) {
   const isAuthenticated = useIsAuthenticated();
   const { instance, inProgress } = useMsal();
 
-  // Logs user out if there are inconsistencies in login status of user across tabs
+  // Throws error if there are inconsistencies in login status of user across tabs
   useEffect(() => {
     if (isAuthenticated && !instance.getActiveAccount()) {
       throw Error(

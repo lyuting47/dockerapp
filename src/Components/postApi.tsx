@@ -30,7 +30,6 @@ const PostApiButton = (props: { provider: Provider }) => {
               apiConfig.apiEndpoint,
               "POST",
               (response: UserModel | ApiError) => {
-                console.log(response);
                 setData(response);
                 setRetrieving(false);
               },

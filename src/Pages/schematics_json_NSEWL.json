@@ -1261,6 +1261,20 @@
   },
   {
     "timestamp": "2022-11-18 13:12:35",
+    "line_code": "NSL",
+    "station_code": "TAP",
+    "train_id": "410",
+    "destination_code": "MSP",
+    "train_event_type": "ARRIVED",
+    "train_movement": "STOPPED",
+    "status": "OPENED",
+    "platform_code": "B",
+    "next_station_code": "NOV",
+    "previous_station_code": "BDL",
+    "bound_code": "SB"
+  },
+  {
+    "timestamp": "2022-11-18 13:12:35",
     "line_code": "EWL",
     "station_code": "BNV",
     "train_id": "336",
@@ -1622,6 +1636,20 @@
     "next_station_code": "CTH",
     "previous_station_code": "LVR",
     "bound_code": "WB"
+  },
+  {
+    "timestamp": "2022-11-18 13:12:56",
+    "line_code": "NSL",
+    "station_code": "TAP",
+    "train_id": "410",
+    "destination_code": "MSP",
+    "train_event_type": "ARRIVED",
+    "train_movement": "STOPPED",
+    "status": "CLOSED",
+    "platform_code": "B",
+    "next_station_code": "NOV",
+    "previous_station_code": "BDL",
+    "bound_code": "SB"
   },
   {
     "timestamp": "2022-11-18 13:12:56",
@@ -2242,6 +2270,20 @@
   {
     "timestamp": "2022-11-18 13:13:34",
     "line_code": "NSL",
+    "station_code": "TAP",
+    "train_id": "410",
+    "destination_code": "MSP",
+    "train_event_type": "DEPARTED",
+    "train_movement": "MOVING",
+    "status": null,
+    "platform_code": null,
+    "next_station_code": "NOV",
+    "previous_station_code": "BDL",
+    "bound_code": "SB"
+  },
+  {
+    "timestamp": "2022-11-18 13:13:34",
+    "line_code": "NSL",
     "station_code": "BSH",
     "train_id": "208",
     "destination_code": "JUR",
@@ -2574,6 +2616,20 @@
     "next_station_code": "TAM",
     "previous_station_code": "TNM",
     "bound_code": "EB"
+  },
+  {
+    "timestamp": "2022-11-18 13:14:06",
+    "line_code": "NSL",
+    "station_code": "NOV",
+    "train_id": "410",
+    "destination_code": "MSP",
+    "train_event_type": "ARRIVED",
+    "train_movement": "STOPPED",
+    "status": "OPENED",
+    "platform_code": "B",
+    "next_station_code": "NEW",
+    "previous_station_code": "TAP",
+    "bound_code": "SB"
   },
   {
     "timestamp": "2022-11-18 13:14:06",
@@ -3894,6 +3950,20 @@
   {
     "timestamp": "2022-11-18 13:15:28",
     "line_code": "NSL",
+    "station_code": "SOM",
+    "train_id": "213",
+    "destination_code": "JUR",
+    "train_event_type": "ARRIVED",
+    "train_movement": "STOPPED",
+    "status": "OPENED",
+    "platform_code": "A",
+    "next_station_code": "ORC",
+    "previous_station_code": "DBG",
+    "bound_code": "NB"
+  },
+  {
+    "timestamp": "2022-11-18 13:15:28",
+    "line_code": "NSL",
     "station_code": "SBW",
     "train_id": "227",
     "destination_code": "MSP",
@@ -4538,6 +4608,20 @@
   {
     "timestamp": "2022-11-18 13:16:21",
     "line_code": "NSL",
+    "station_code": "SOM",
+    "train_id": "213",
+    "destination_code": "JUR",
+    "train_event_type": "ARRIVED",
+    "train_movement": "STOPPED",
+    "status": "CLOSED",
+    "platform_code": "A",
+    "next_station_code": "ORC",
+    "previous_station_code": "DBG",
+    "bound_code": "NB"
+  },
+  {
+    "timestamp": "2022-11-18 13:16:21",
+    "line_code": "NSL",
     "station_code": "YWT",
     "train_id": "232",
     "destination_code": "MSP",
@@ -4926,6 +5010,20 @@
     "next_station_code": "LKS",
     "previous_station_code": "PNR",
     "bound_code": "EB"
+  },
+  {
+    "timestamp": "2022-11-18 13:16:45",
+    "line_code": "NSL",
+    "station_code": "SOM",
+    "train_id": "213",
+    "destination_code": "JUR",
+    "train_event_type": "DEPARTED",
+    "train_movement": "MOVING",
+    "status": null,
+    "platform_code": null,
+    "next_station_code": "ORC",
+    "previous_station_code": "DBG",
+    "bound_code": "NB"
   },
   {
     "timestamp": "2022-11-18 13:16:45",
@@ -5360,6 +5458,20 @@
     "next_station_code": "LKS",
     "previous_station_code": "PNR",
     "bound_code": "EB"
+  },
+  {
+    "timestamp": "2022-11-18 13:17:19",
+    "line_code": "NSL",
+    "station_code": "ORC",
+    "train_id": "213",
+    "destination_code": "JUR",
+    "train_event_type": "ARRIVED",
+    "train_movement": "STOPPED",
+    "status": "OPENED",
+    "platform_code": "A",
+    "next_station_code": "NEW",
+    "previous_station_code": "SOM",
+    "bound_code": "NB"
   },
   {
     "timestamp": "2022-11-18 13:17:19",
@@ -5868,6 +5980,20 @@
   {
     "timestamp": "2022-11-18 13:17:47",
     "line_code": "NSL",
+    "station_code": "ORC",
+    "train_id": "213",
+    "destination_code": "JUR",
+    "train_event_type": "ARRIVED",
+    "train_movement": "STOPPED",
+    "status": "CLOSED",
+    "platform_code": "A",
+    "next_station_code": "NEW",
+    "previous_station_code": "SOM",
+    "bound_code": "NB"
+  },
+  {
+    "timestamp": "2022-11-18 13:17:47",
+    "line_code": "NSL",
     "station_code": "JUR",
     "train_id": "407",
     "destination_code": "MSP",
@@ -6200,6 +6326,20 @@
     "next_station_code": "YCK",
     "previous_station_code": "YIS",
     "bound_code": "SB"
+  },
+  {
+    "timestamp": "2022-11-18 13:18:05",
+    "line_code": "NSL",
+    "station_code": "ORC",
+    "train_id": "213",
+    "destination_code": "JUR",
+    "train_event_type": "DEPARTED",
+    "train_movement": "MOVING",
+    "status": null,
+    "platform_code": null,
+    "next_station_code": "NEW",
+    "previous_station_code": "SOM",
+    "bound_code": "NB"
   },
   {
     "timestamp": "2022-11-18 13:18:05",
@@ -6876,6 +7016,20 @@
   {
     "timestamp": "2022-11-18 13:18:46",
     "line_code": "NSL",
+    "station_code": "NEW",
+    "train_id": "213",
+    "destination_code": "JUR",
+    "train_event_type": "ARRIVED",
+    "train_movement": "STOPPED",
+    "status": "OPENED",
+    "platform_code": "A",
+    "next_station_code": "NOV",
+    "previous_station_code": "ORC",
+    "bound_code": "NB"
+  },
+  {
+    "timestamp": "2022-11-18 13:18:46",
+    "line_code": "NSL",
     "station_code": "CBR",
     "train_id": "227",
     "destination_code": "MSP",
@@ -7320,6 +7474,20 @@
     "next_station_code": "SIM",
     "previous_station_code": "PSR",
     "bound_code": "WB"
+  },
+  {
+    "timestamp": "2022-11-18 13:19:23",
+    "line_code": "NSL",
+    "station_code": "NEW",
+    "train_id": "213",
+    "destination_code": "JUR",
+    "train_event_type": "ARRIVED",
+    "train_movement": "STOPPED",
+    "status": "CLOSED",
+    "platform_code": "A",
+    "next_station_code": "NOV",
+    "previous_station_code": "ORC",
+    "bound_code": "NB"
   },
   {
     "timestamp": "2022-11-18 13:19:23",
@@ -7852,6 +8020,20 @@
     "next_station_code": "LKS",
     "previous_station_code": "JUR",
     "bound_code": "WB"
+  },
+  {
+    "timestamp": "2022-11-18 13:19:53",
+    "line_code": "NSL",
+    "station_code": "NEW",
+    "train_id": "213",
+    "destination_code": "JUR",
+    "train_event_type": "DEPARTED",
+    "train_movement": "MOVING",
+    "status": null,
+    "platform_code": null,
+    "next_station_code": "NOV",
+    "previous_station_code": "ORC",
+    "bound_code": "NB"
   },
   {
     "timestamp": "2022-11-18 13:19:53",
@@ -8752,6 +8934,20 @@
   {
     "timestamp": "2022-11-18 13:20:49",
     "line_code": "NSL",
+    "station_code": "NOV",
+    "train_id": "213",
+    "destination_code": "JUR",
+    "train_event_type": "ARRIVED",
+    "train_movement": "STOPPED",
+    "status": "OPENED",
+    "platform_code": "A",
+    "next_station_code": "TAP",
+    "previous_station_code": "NEW",
+    "bound_code": "NB"
+  },
+  {
+    "timestamp": "2022-11-18 13:20:49",
+    "line_code": "NSL",
     "station_code": "JUR",
     "train_id": "407",
     "destination_code": "MSP",
@@ -9242,6 +9438,20 @@
   {
     "timestamp": "2022-11-18 13:21:23",
     "line_code": "NSL",
+    "station_code": "NOV",
+    "train_id": "213",
+    "destination_code": "JUR",
+    "train_event_type": "ARRIVED",
+    "train_movement": "STOPPED",
+    "status": "CLOSED",
+    "platform_code": "A",
+    "next_station_code": "TAP",
+    "previous_station_code": "NEW",
+    "bound_code": "NB"
+  },
+  {
+    "timestamp": "2022-11-18 13:21:23",
+    "line_code": "NSL",
     "station_code": "WDL",
     "train_id": "231",
     "destination_code": "MSP",
@@ -9714,6 +9924,20 @@
     "next_station_code": "RFP",
     "previous_station_code": "OTP",
     "bound_code": "EB"
+  },
+  {
+    "timestamp": "2022-11-18 13:22:00",
+    "line_code": "NSL",
+    "station_code": "NOV",
+    "train_id": "213",
+    "destination_code": "JUR",
+    "train_event_type": "DEPARTED",
+    "train_movement": "MOVING",
+    "status": null,
+    "platform_code": null,
+    "next_station_code": "TAP",
+    "previous_station_code": "NEW",
+    "bound_code": "NB"
   },
   {
     "timestamp": "2022-11-18 13:22:00",
@@ -10624,6 +10848,20 @@
     "next_station_code": "TPG",
     "previous_station_code": "CTH",
     "bound_code": "WB"
+  },
+  {
+    "timestamp": "2022-11-18 13:23:03",
+    "line_code": "NSL",
+    "station_code": "TAP",
+    "train_id": "213",
+    "destination_code": "JUR",
+    "train_event_type": "ARRIVED",
+    "train_movement": "STOPPED",
+    "status": "OPENED",
+    "platform_code": "A",
+    "next_station_code": "BDL",
+    "previous_station_code": "NOV",
+    "bound_code": "NB"
   },
   {
     "timestamp": "2022-11-18 13:23:03",

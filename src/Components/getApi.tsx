@@ -30,7 +30,6 @@ const GetApiButton = (props: { provider: Provider }) => {
               apiConfig.apiEndpoint + searchId,
               "GET",
               (response: UserModel | ApiError) => {
-                console.log(response);
                 setData(response);
                 setRetrieving(false);
               }

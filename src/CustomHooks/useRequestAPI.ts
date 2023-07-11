@@ -91,7 +91,6 @@ export function useRequestApi(
           account: account,
         } as SilentRequest)
         .then((response) => {
-          console.log(response);
           accessApiWithToken<U, T>(
             response.accessToken,
             apiEndpoint,

@@ -93,10 +93,10 @@ export function NslMap(props: { provider: Provider }) {
           "Error processing next station code " +
             train_nextFrame.station_code +
             "_" +
-            train_nextFrame.platform_code ??
-            train_nextFrame.next_station_code +
-              " of train id: " +
-              train_currFrame.train_id
+            (train_nextFrame.platform_code ??
+              train_nextFrame.next_station_code) +
+            " of train id: " +
+            train_currFrame.train_id
         );
         continue;
       }
@@ -151,15 +151,18 @@ export function NslMap(props: { provider: Provider }) {
     }
 
     // Display next static frame when all animations are complete
-    Promise.all(
-      document.getAnimations().map((animation) => animation.finished)
-    ).then(() => {
-      setFrameIndex((idx) => idx + 1);
-      setCurrFrame(nextFrame);
-      if (isAuto) {
-        setJsonIndex((idx) => idx + 5);
-      }
-    });
+    Promise.all(document.getAnimations().map((animation) => animation.finished))
+      .then(() => {
+        setFrameIndex((idx) => idx + 1);
+        setCurrFrame(nextFrame);
+        if (isAuto) {
+          setJsonIndex((idx) => idx + 5);
+        }
+      })
+      .catch((err) => {
+        console.log("Some animations failed to complete.");
+        throw err;
+      });
   }, [jsonIndex, isAuto]);
 
   return (
@@ -167,7 +170,7 @@ export function NslMap(props: { provider: Provider }) {
       interactionType={InteractionType.Silent}
       authenticationRequest={loginRequest}
       loadingComponent={() => <h1 className="card-title">Loading...</h1>}
-      errorComponent={() => <Fallback provider={props.provider}></Fallback>}
+      errorComponent={() => <Fallback provider={props.provider} />}
     >
       <header className="App-header">
         <div

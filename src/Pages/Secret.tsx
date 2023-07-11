@@ -14,7 +14,7 @@ export function Secret(props: { provider: Provider }) {
   const { instance } = useMsal();
   const isAuthenticated = useIsAuthenticated();
 
-  // Logs user out if there are inconsistencies in login status of user across tabs
+  // Throws error if there are inconsistencies in login status of user across tabs
   useEffect(() => {
     if (isAuthenticated && !instance.getActiveAccount()) {
       throw Error(
@@ -28,7 +28,7 @@ export function Secret(props: { provider: Provider }) {
       interactionType={InteractionType.Silent}
       authenticationRequest={loginRequest}
       loadingComponent={() => <h1 className="card-title">Loading...</h1>}
-      errorComponent={() => <Fallback provider={props.provider}></Fallback>}
+      errorComponent={() => <Fallback provider={props.provider} />}
     >
       <header className="App-header">
         <LogoutButton provider={props.provider} />
