@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { useMsal } from "@azure/msal-react";
 import { apiConfig, loginRequest } from "../authConfig";
 import Profile from "./profile";
@@ -10,44 +10,53 @@ import ApiErrorProfile from "./apiErrorProfile";
 
 const PostApiButton = (props: { provider: Provider }) => {
   const { instance } = useMsal();
-  const [data, setData] = useState<UserModel | ApiError>(UserModel.EmptyUser);
+  const [displayData, setDisplayData] = useState<UserModel | ApiError>(
+    UserModel.EmptyUser
+  );
   const [retrieving, setRetrieving] = useState(false);
-  const [newUser, setNewUser] = useState(new UserModel());
+  const usernameRef = useRef<HTMLInputElement>(null);
+  const fullNameRef = useRef<HTMLInputElement>(null);
+  const timezoneRef = useRef<HTMLInputElement>(null);
   const requestApi = useRequestApi(
     props.provider,
     instance.getActiveAccount(),
     loginRequest
   );
 
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (
+      usernameRef.current === null ||
+      fullNameRef.current === null ||
+      timezoneRef.current === null
+    ) {
+      throw Error("Cannot find reference to input element(s)");
+    }
+    setRetrieving(true);
+    requestApi<UserModel, UserModel | ApiError>(
+      apiConfig.apiEndpoint,
+      "POST",
+      (response: UserModel | ApiError) => {
+        setDisplayData(response);
+        setRetrieving(false);
+      },
+      new UserModel(
+        usernameRef.current.value,
+        fullNameRef.current.value,
+        timezoneRef.current.value
+      )
+    );
+  };
+
   return (
     <>
       {!retrieving ? (
-        <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            setRetrieving(true);
-            requestApi<UserModel, UserModel | ApiError>(
-              apiConfig.apiEndpoint,
-              "POST",
-              (response: UserModel | ApiError) => {
-                setData(response);
-                setRetrieving(false);
-              },
-              newUser
-            );
-            setNewUser(new UserModel());
-          }}
-        >
+        <form onSubmit={handleSubmit}>
           <label>
             Username:{" "}
             <input
-              name="username"
-              onChange={(e) =>
-                setNewUser((user) => {
-                  user.username = e.target.value;
-                  return user;
-                })
-              }
+              aria-label="username"
+              ref={usernameRef}
               size={23}
               style={{ verticalAlign: 2.5 }}
             />
@@ -56,13 +65,8 @@ const PostApiButton = (props: { provider: Provider }) => {
           <label>
             Full Name:{" "}
             <input
-              name="fullName"
-              onChange={(e) =>
-                setNewUser((user) => {
-                  user.fullName = e.target.value;
-                  return user;
-                })
-              }
+              aria-label="fullName"
+              ref={fullNameRef}
               size={23}
               style={{ verticalAlign: 2.5 }}
             />
@@ -71,13 +75,8 @@ const PostApiButton = (props: { provider: Provider }) => {
           <label>
             Timezone:{" "}
             <input
-              name="timezone"
-              onChange={(e) =>
-                setNewUser((user) => {
-                  user.timezone = e.target.value;
-                  return user;
-                })
-              }
+              aria-label="timezone"
+              ref={timezoneRef}
               size={23}
               style={{ verticalAlign: 2.5 }}
             />
@@ -89,11 +88,11 @@ const PostApiButton = (props: { provider: Provider }) => {
         <h5 className="card-title">Loading...</h5>
       )}
 
-      {(data as UserModel).id !== undefined && !retrieving && (
-        <Profile data={data as UserModel} />
+      {(displayData as UserModel).id !== undefined && !retrieving && (
+        <Profile data={displayData as UserModel} />
       )}
-      {(data as ApiError).name !== undefined && !retrieving && (
-        <ApiErrorProfile data={data as ApiError} />
+      {(displayData as ApiError).name !== undefined && !retrieving && (
+        <ApiErrorProfile data={displayData as ApiError} />
       )}
     </>
   );

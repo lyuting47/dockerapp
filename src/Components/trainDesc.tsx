@@ -1,6 +1,6 @@
 import React from "react";
 import { RawTrainInfo } from "../rawTrainInfo";
-import { locationWidth, locationHeight } from "./nslSvgV2";
+import { locationWidth, locationHeight } from "./nslSvg";
 import { trainWidth, trainHeight } from "./trainSvg";
 
 export function TrainDesc(props: { train: RawTrainInfo }) {

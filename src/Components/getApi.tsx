@@ -10,7 +10,9 @@ import ApiErrorProfile from "./apiErrorProfile";
 
 const GetApiButton = (props: { provider: Provider }) => {
   const { instance } = useMsal();
-  const [data, setData] = useState<UserModel | ApiError>(UserModel.EmptyUser);
+  const [displayData, setDisplayData] = useState<UserModel | ApiError>(
+    UserModel.EmptyUser
+  );
   const [retrieving, setRetrieving] = useState(false);
   const [searchId, setSearchId] = useState("6476b6c5ca2931de7dd4badc");
   const searchIdRef = useRef<HTMLInputElement>(null);
@@ -31,7 +33,7 @@ const GetApiButton = (props: { provider: Provider }) => {
       apiConfig.apiEndpoint + searchIdRef.current.value,
       "GET",
       (response: UserModel | ApiError) => {
-        setData(response);
+        setDisplayData(response);
         setRetrieving(false);
       }
     );
@@ -57,11 +59,11 @@ const GetApiButton = (props: { provider: Provider }) => {
       ) : (
         <h5 className="card-title">Loading...</h5>
       )}
-      {(data as UserModel).id !== undefined && !retrieving && (
-        <Profile data={data as UserModel} />
+      {(displayData as UserModel).id !== undefined && !retrieving && (
+        <Profile data={displayData as UserModel} />
       )}
-      {(data as ApiError).name !== undefined && !retrieving && (
-        <ApiErrorProfile data={data as ApiError} />
+      {(displayData as ApiError).name !== undefined && !retrieving && (
+        <ApiErrorProfile data={displayData as ApiError} />
       )}
     </>
   );

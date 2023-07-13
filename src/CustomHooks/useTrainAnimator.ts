@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
-import { locationHeight, locationWidth } from "../Components/nslSvgV2";
+import { useEffect, useRef, useState } from "react";
+import { locationHeight, locationWidth } from "../Components/nslSvg";
 import { RawTrainInfo, getTrainById } from "../rawTrainInfo";
 
 export function useTrainAnimator(

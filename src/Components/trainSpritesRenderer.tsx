@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { TrainSvg, trainHeight, trainWidth } from "./trainSvg";
 import { RawTrainInfo } from "../rawTrainInfo";
-import { locationWidth, locationHeight } from "./nslSvgV2";
+import { locationWidth, locationHeight } from "./nslSvg";
 import { TrainDesc } from "./trainDesc";
 
 export function TrainSpritesRenderer(props: {

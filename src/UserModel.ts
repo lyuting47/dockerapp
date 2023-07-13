@@ -10,9 +10,9 @@ export class UserModel {
     timezone: "",
   };
 
-  public constructor() {
-    this.username = "";
-    this.fullName = "";
-    this.timezone = "";
+  public constructor(username: string, fullName: string, timezone: string) {
+    this.username = username;
+    this.fullName = fullName;
+    this.timezone = timezone;
   }
 }
