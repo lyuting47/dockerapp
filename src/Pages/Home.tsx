@@ -7,8 +7,8 @@ import GetApiButton from "../Components/getApi";
 import { Provider } from "../CustomHooks/provider";
 
 export function Home(props: { provider: Provider }) {
-  const isAuthenticated = useIsAuthenticated();
   const { instance, inProgress } = useMsal();
+  const isAuthenticated = useIsAuthenticated();
 
   // Throws error if there are inconsistencies in login status of user across tabs
   useEffect(() => {

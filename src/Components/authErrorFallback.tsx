@@ -6,8 +6,8 @@ const Fallback = (props: { provider: Provider }) => {
   return (
     <div role="alert">
       <pre style={{ color: "red" }}>
-        You are not logged in or your session has expired, please log in to
-        access this page.
+        There are either no active accounts or more than one. Please log in
+        manually.
       </pre>
       <LoginButton provider={props.provider} />
     </div>
