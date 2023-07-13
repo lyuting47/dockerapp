@@ -13,52 +13,46 @@ const GetApiButton = (props: { provider: Provider }) => {
   const [data, setData] = useState<UserModel | ApiError>(UserModel.EmptyUser);
   const [retrieving, setRetrieving] = useState(false);
   const [searchId, setSearchId] = useState("6476b6c5ca2931de7dd4badc");
-  const serachIdRef = useRef<HTMLInputElement>(null);
+  const searchIdRef = useRef<HTMLInputElement>(null);
   const requestApi = useRequestApi(
     props.provider,
     instance.getActiveAccount(),
     loginRequest
   );
 
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (searchIdRef.current === null) {
+      throw Error("Cannot find reference to input element");
+    }
+    setSearchId(searchIdRef.current.value);
+    setRetrieving(true);
+    requestApi<void, UserModel | ApiError>(
+      apiConfig.apiEndpoint + searchIdRef.current.value,
+      "GET",
+      (response: UserModel | ApiError) => {
+        setData(response);
+        setRetrieving(false);
+      }
+    );
+  };
+
   return (
     <>
       {!retrieving ? (
-        <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            setRetrieving(true);
-            requestApi<void, UserModel | ApiError>(
-              apiConfig.apiEndpoint + searchId,
-              "GET",
-              (response: UserModel | ApiError) => {
-                setData(response);
-                setRetrieving(false);
-              }
-            );
-          }}
-        >
+        <form onSubmit={handleSubmit}>
           <label>
             Search for ID:{" "}
             <input
               aria-label="search_id"
               defaultValue={searchId}
-              ref={serachIdRef}
+              ref={searchIdRef}
               size={23}
               style={{ verticalAlign: 2.5 }}
             />
           </label>
           <hr />
-          <button
-            type="submit"
-            onClick={() => {
-              if (serachIdRef.current === null) {
-                throw Error("Cannot find reference to input element");
-              }
-              setSearchId(serachIdRef.current.value);
-            }}
-          >
-            Send Request
-          </button>
+          <button type="submit">Send Request</button>
         </form>
       ) : (
         <h5 className="card-title">Loading...</h5>
