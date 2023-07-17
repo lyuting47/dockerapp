@@ -1,7 +1,12 @@
 import React, { useState } from "react";
-import { TrainSvg, trainHeight, trainWidth } from "./trainSvg";
+import { TrainSvg } from "./trainSvg";
 import { RawTrainInfo } from "../rawTrainInfo";
-import { locationWidth, locationHeight } from "./nslSvg";
+import {
+  locationWidth,
+  locationHeight,
+  trainHeight,
+  trainWidth,
+} from "./animationConstants";
 import { TrainDesc } from "./trainDesc";
 
 export function TrainSpritesRenderer(props: {
@@ -37,7 +42,7 @@ export function TrainSpritesRenderer(props: {
         const rootStyle = getComputedStyle(root);
         return (
           <TrainSvg
-            key={train.train_id + props.frameIndex.toString()}
+            key={`${train.train_id}_${props.frameIndex}`}
             id={train.train_id}
             onClick={() =>
               setActiveDescs((descs) => {
@@ -71,7 +76,10 @@ export function TrainSpritesRenderer(props: {
       {props.trainInfos.map((train) => {
         return (
           activeDescs.includes(train.train_id) && (
-            <TrainDesc train={train} key={train.train_id} />
+            <TrainDesc
+              train={train}
+              key={train.train_id + props.frameIndex.toString()}
+            />
           )
         );
       })}

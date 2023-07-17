@@ -1,7 +1,11 @@
 import React from "react";
 import { RawTrainInfo } from "../rawTrainInfo";
-import { locationWidth, locationHeight } from "./nslSvg";
-import { trainWidth, trainHeight } from "./trainSvg";
+import {
+  locationWidth,
+  locationHeight,
+  trainWidth,
+  trainHeight,
+} from "./animationConstants";
 
 export function TrainDesc(props: { train: RawTrainInfo }) {
   const locations = Array.from(
@@ -23,6 +27,7 @@ export function TrainDesc(props: { train: RawTrainInfo }) {
   return (
     <div
       className="TrainDesc"
+      id={`desc_${props.train.train_id}`}
       style={{
         width: trainWidth,
         left: `${

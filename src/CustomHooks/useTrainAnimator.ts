@@ -1,11 +1,15 @@
 import { useEffect, useRef, useState } from "react";
-import { locationHeight, locationWidth } from "../Components/nslSvg";
+import {
+  locationHeight,
+  locationWidth,
+} from "../Components/animationConstants";
 import { RawTrainInfo, getTrainById } from "../rawTrainInfo";
 
 export function useTrainAnimator(
   sampleData: RawTrainInfo[],
   initialSize: number,
-  stepSize: number
+  stepSize: number,
+  animationDuration: number
 ) {
   const [currFrame, setCurrFrame] = useState<RawTrainInfo[]>([]);
   const [jsonIndex, setJsonIndex] = useState(initialSize);
@@ -16,7 +20,7 @@ export function useTrainAnimator(
   // Animation logic here
   useEffect(() => {
     // Simulate processing new data
-    const nextFrame: RawTrainInfo[] = sampleData.slice(
+    let nextFrame: RawTrainInfo[] = sampleData.slice(
       jsonIndex - step.current,
       jsonIndex
     );
@@ -24,17 +28,21 @@ export function useTrainAnimator(
     step.current = stepSize;
 
     // Remove dupicate/outdated info for same train, keep most recent one only
-    for (let i = nextFrame.length - 1; i >= 0; i--) {
-      for (let j = 0; j < i; j++)
-        if (nextFrame[j].station_code === nextFrame[i].station_code) {
-          nextFrame.splice(j, 1);
-          break;
-        }
+    function getUniqueListBy<T>(arr: T[], keys: (keyof T)[]): T[] {
+      const kvArray: [string, T][] = arr.map((item) => {
+        const compoundKey = keys.map((key) => item[key]).join("_");
+        return [compoundKey, item];
+      });
+      return Array.from(new Map(kvArray).values());
     }
+    nextFrame = getUniqueListBy(nextFrame, ["train_id"]);
 
     for (let i = 0; i < currFrame.length; i++) {
       const train_currFrame = currFrame[i];
       const trainSprite = document.getElementById(train_currFrame.train_id);
+      const trainDesc = document.getElementById(
+        `desc_${train_currFrame.train_id}`
+      );
       if (trainSprite === null) {
         console.log("Error locating train id: " + train_currFrame.train_id);
         continue;
@@ -100,10 +108,10 @@ export function useTrainAnimator(
             trainSprite.getBoundingClientRect().top -
             locationHeight) /
             2;
-        const duration = (1 / numOfNodes) * 1000;
-        const delay = duration * i;
+        const durationPerNode = animationDuration / numOfNodes;
+        const delay = durationPerNode * i;
 
-        // Add movement animation
+        // Add movement animation for train sprite
         trainSprite.animate(
           [
             {},
@@ -116,13 +124,68 @@ export function useTrainAnimator(
             },
           ],
           {
-            duration: duration,
+            duration: durationPerNode,
             delay: delay,
             easing: "ease-in-out",
             fill: "forwards",
           }
         );
+
+        // Add movement animation for train description if any
+        if (trainDesc !== null) {
+          trainDesc.animate(
+            [
+              {},
+              {
+                translate:
+                  `${location_left - curr_left}px` +
+                  " " +
+                  `${location_top - curr_top}px`,
+              },
+            ],
+            {
+              duration: durationPerNode,
+              delay: delay,
+              easing: "ease-in-out",
+              fill: "forwards",
+            }
+          );
+        }
       }
+    }
+
+    // Remove dupicate/outdated info for same station and platform, keep most recent one only
+    const nextFrameDoorInfos = getUniqueListBy(nextFrame, [
+      "station_code",
+      "platform_code",
+    ]);
+    const nextFrameDoorIds = new Map(
+      nextFrameDoorInfos.map((train) => [
+        `door_${train.station_code}_${train.platform_code ?? "null"}`,
+        train.status,
+      ])
+    );
+
+    // Animate fading of door sprites which are going to become closed
+    const currDoorSprites = document.getElementsByClassName("DoorDesc");
+    for (let i = 0; i < currDoorSprites.length; i++) {
+      const doorSprite = currDoorSprites[i];
+      if (nextFrameDoorIds.get(doorSprite.id) === "OPENED") {
+        continue;
+      }
+      doorSprite.animate(
+        [
+          {},
+          {
+            opacity: "0%",
+          },
+        ],
+        {
+          duration: animationDuration,
+          easing: "linear",
+          fill: "forwards",
+        }
+      );
     }
 
     // Display next static frame when all animations are complete
@@ -131,7 +194,7 @@ export function useTrainAnimator(
         setFrameIndex((idx) => idx + 1);
         setCurrFrame(nextFrame);
         if (isAuto) {
-          setJsonIndex((idx) => idx + 5);
+          setTimeout(() => setJsonIndex((idx) => idx + stepSize), 500);
         }
       })
       .catch((err) => {

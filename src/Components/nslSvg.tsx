@@ -7,6 +7,7 @@ export const NslSvg = (props: SVGProps<SVGSVGElement>) => (
     width={1659}
     height={302}
     viewBox="0 0 1659 302"
+    className="NslMap"
     {...props}
   >
     <g id="NSL" transform="translate(-131 -82)">
@@ -2964,6 +2965,3 @@ export const NslSvg = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
-export const locationWidth = 8;
-export const locationHeight = 8;

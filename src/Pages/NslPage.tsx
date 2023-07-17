@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Provider } from "../CustomHooks/provider";
+import { useWindowSize } from "../CustomHooks/useWindowSize";
 import {
   MsalAuthenticationTemplate,
   useIsAuthenticated,
@@ -8,25 +9,48 @@ import {
 import { InteractionType } from "@azure/msal-browser";
 import { loginRequest } from "../authConfig";
 import { TrainSpritesRenderer } from "../Components/trainSpritesRenderer";
+import { DoorSpritesRenderer } from "../Components/doorSpritesRenderer";
 import sampleData from "./schematics_json_NSEWL.json";
 import Fallback from "../Components/authErrorFallback";
 import { useTrainAnimator } from "../CustomHooks/useTrainAnimator";
 import { MapRenderer } from "../Components/mapRenderer";
+import { NslSvg } from "../Components/nslSvg";
+import { EwlSvg } from "../Components/ewlSvg";
+import { RawTrainInfo } from "../rawTrainInfo";
 
 // Filtering sample data
-const sampleNslData = sampleData.filter(
+const sampleNslData: RawTrainInfo[] = sampleData.filter(
   (train) => train.line_code === "NSL" && train.train_id !== "205"
 );
+
+// Duplicating sample data for load testing
+/*
+sampleNslData = sampleNslData.flatMap((train) => {
+  const dupes: RawTrainInfo[] = [train];
+  for (let i = 0; i < 30; i++) {
+    const train_copy: RawTrainInfo = { ...train };
+    train_copy.train_id = train_copy.train_id + i.toString();
+    dupes.push(train_copy);
+  }
+  return dupes;
+});
+*/
+
+const initialSize = 50;
+const stepSize = 10;
+const animationDuration = 1000;
 
 export function NslPage(props: { provider: Provider }) {
   const { instance } = useMsal();
   const isAuthenticated = useIsAuthenticated();
   const { currFrame, frameIndex, setIsAuto, setJsonIndex } = useTrainAnimator(
     sampleNslData,
-    50,
-    5
+    initialSize,
+    stepSize,
+    animationDuration
   );
   const [isMapRendered, setIsMapRendered] = useState(false);
+  useWindowSize();
 
   // Throws error if there are inconsistencies in login status of user
   useEffect(() => {
@@ -57,7 +81,7 @@ export function NslPage(props: { provider: Provider }) {
             onClick={(e) => {
               e.preventDefault();
               // Simulate new incoming data
-              setJsonIndex((idx) => idx + 5);
+              setJsonIndex((idx) => idx + stepSize);
             }}
           >
             Next
@@ -70,12 +94,18 @@ export function NslPage(props: { provider: Provider }) {
             Auto?
           </label>
         </div>
-        <MapRenderer setIsRendered={setIsMapRendered} />
+        <MapRenderer setIsRendered={setIsMapRendered} mapSvg={NslSvg} />
         {isMapRendered && (
-          <TrainSpritesRenderer
-            trainInfos={currFrame}
-            frameIndex={frameIndex}
-          />
+          <>
+            <TrainSpritesRenderer
+              trainInfos={currFrame}
+              frameIndex={frameIndex}
+            />
+            <DoorSpritesRenderer
+              trainInfos={currFrame}
+              frameIndex={frameIndex}
+            />
+          </>
         )}
       </header>
     </MsalAuthenticationTemplate>

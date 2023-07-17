@@ -33,12 +33,27 @@
   background-color: black;
   opacity: 70%;
   transform-origin: center;
-  z-index: 2;
+  z-index: 3;
   font-size: 25%;
 }
 
 .NslMap {
-  position: absolute;
   transform-origin: center;
   z-index: 0;
+}
+
+.EwlMap {
+  transform-origin: center;
+  z-index: 0;
+}
+
+.DoorDesc {
+  position: absolute;
+  outline: 0.1rem solid white;
+  background-color: black;
+  opacity: 70%;
+  transform-origin: center;
+  z-index: 2;
+  font-size: 25%;
+  transition: opacity 1s linear;
 }

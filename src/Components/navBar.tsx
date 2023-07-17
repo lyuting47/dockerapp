@@ -7,7 +7,6 @@ const NavBar = () => {
         display: "flex",
         flexDirection: "row",
         padding: 0,
-
       }}
     >
       <div style={{ padding: 5, margin: 20 }}>
@@ -28,6 +27,11 @@ const NavBar = () => {
       <div style={{ padding: 5, margin: 20 }}>
         <Link to="/nsl-map" style={{ color: "#00cdcd" }}>
           NSL Map
+        </Link>
+      </div>
+      <div style={{ padding: 5, margin: 20 }}>
+        <Link to="/ewl-map" style={{ color: "#00cdcd" }}>
+          EWL Map
         </Link>
       </div>
     </div>
