@@ -22,7 +22,7 @@ export function NslPageWs(props: { provider: Provider }) {
   const { instance } = useMsal();
   const isAuthenticated = useIsAuthenticated();
   const { currFrame, frameIndex } = useWsCacheAnimator(
-    "ws://kafka-backend.internal.lemonforest-65dc29d4.southeastasia.azurecontainerapps.io:8000",
+    "wss://kafka-backend.internal.lemonforest-65dc29d4.southeastasia.azurecontainerapps.io:8000",
     "NSL",
     animationDuration
   );
