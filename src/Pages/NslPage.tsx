@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Provider } from "../CustomHooks/provider";
-import { useWindowSizeListener } from "../CustomHooks/useWindowSizeListener";
 import {
   MsalAuthenticationTemplate,
   useIsAuthenticated,
@@ -18,7 +17,7 @@ import { NslSvg } from "../Components/Animation/nslSvg";
 import { RawTrainInfo } from "../RawTrainInfo";
 
 // Filtering sample data
-const sampleNslData: RawTrainInfo[] = sampleData.filter(
+let sampleNslData: RawTrainInfo[] = sampleData.filter(
   (train) => train.line_code === "NSL" && train.train_id !== "205"
 );
 
@@ -49,7 +48,6 @@ export function NslPage(props: { provider: Provider }) {
     animationDuration
   );
   const [isMapRendered, setIsMapRendered] = useState(false);
-  useWindowSizeListener();
 
   // Throws error if there are inconsistencies in login status of user
   useEffect(() => {

@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
+import { useVisibilityListener } from "./useVisibilityListener";
 import {
   locationHeight,
   locationWidth,
 } from "../Components/Animation/animationConstants";
 import { RawTrainInfo, getTrainById } from "../RawTrainInfo";
-import { useVisibilityListener } from "./useVisibilityListener";
 import { useWindowSizeListener } from "./useWindowSizeListener";
 
 function getUniqueListBy<T>(arr: T[], keys: (keyof T)[]): T[] {
@@ -15,35 +15,39 @@ function getUniqueListBy<T>(arr: T[], keys: (keyof T)[]): T[] {
   return Array.from(new Map(kvArray).values());
 }
 
-export function useAnimator(
-  sampleData: RawTrainInfo[],
-  initialSize: number,
-  stepSize: number,
+export function useWsPullAnimator(
+  wsUrl: string,
+  topic: string,
   animationDuration: number
 ) {
-  const [currFrame, setCurrFrame] = useState<RawTrainInfo[]>([]);
-  const [jsonIndex, setJsonIndex] = useState(initialSize);
-  const [frameIndex, setFrameIndex] = useState(0);
-  const [isAuto, setIsAuto] = useState(false);
-  const step = useRef(initialSize);
+  // To get around issue of stale useState in msgListener: https://stackoverflow.com/questions/55265255/react-usestate-hook-event-handler-using-initial-state
+  const [frameIndex, _setFrameIndex] = useState(0);
+  const frameIndexRef = useRef(0);
+  const setFrameIndex = (idx: number) => {
+    frameIndexRef.current = idx;
+    _setFrameIndex(idx);
+  };
+  const [currFrame, _setCurrFrame] = useState<RawTrainInfo[]>([]);
+  const currFrameRef = useRef<RawTrainInfo[]>([]);
+  const setCurrFrame = (frame: RawTrainInfo[]) => {
+    currFrameRef.current = frame;
+    _setCurrFrame(frame);
+  };
+  const ws = useRef<WebSocket | null>(null);
 
-  // Animation logic here
-  useEffect(() => {
-    // Simulate processing new data
-    let nextFrame: RawTrainInfo[] = sampleData.slice(
-      jsonIndex - step.current,
-      jsonIndex
-    );
-    // Set step size to normal after first load
-    step.current = stepSize;
+  const msgListener = (event: MessageEvent) => {
+    console.log("Received " + (event.data as string));
 
-    // Remove dupicate/outdated info for same train, keep most recent one only
+    // Process new data: remove dupicate/outdated info for same train, keep most recent one only
+    let nextFrame: RawTrainInfo[] = JSON.parse(
+      event.data as string
+    ) as RawTrainInfo[];
     nextFrame = getUniqueListBy(nextFrame, ["train_id"]);
 
     // If tab is hidden, do not start animations, only process static frames and continue
     if (document.visibilityState === "hidden") {
-      for (let i = 0; i < currFrame.length; i++) {
-        const train_currFrame = currFrame[i];
+      for (let i = 0; i < currFrameRef.current.length; i++) {
+        const train_currFrame = currFrameRef.current[i];
         // If no new info on this train in next frame, persist this train's current state.
         const train_nextFrame = getTrainById(
           nextFrame,
@@ -54,21 +58,22 @@ export function useAnimator(
           continue;
         }
       }
-      // Timeout to simulate time between incoming data, otherwise whole json will be processed too quickly when tab is hidden
-      setTimeout(() => {
-        setFrameIndex((idx) => idx + 1);
-        setCurrFrame(nextFrame);
-        if (isAuto) {
-          setJsonIndex((idx) => idx + stepSize);
-        }
-      }, 1000);
+      setFrameIndex(frameIndexRef.current + 1);
+      setCurrFrame(nextFrame);
+      if (ws.current === null || ws.current.readyState >= 2) {
+        return;
+      }
+      ws.current.send(JSON.stringify({ request: "Next event" }));
       return;
     }
 
     // Start processing animations
-    console.log("Starting animations for frame " + frameIndex.toString());
-    for (let i = 0; i < currFrame.length; i++) {
-      const train_currFrame = currFrame[i];
+    console.log(
+      "Starting animations for frame " + frameIndexRef.current.toString()
+    );
+
+    for (let i = 0; i < currFrameRef.current.length; i++) {
+      const train_currFrame = currFrameRef.current[i];
       const trainSprite = document.getElementById(train_currFrame.train_id);
       const trainDesc = document.getElementById(
         `desc_${train_currFrame.train_id}`
@@ -218,27 +223,57 @@ export function useAnimator(
       );
     }
 
-    // Display next static frame when all animations are complete
+    // Display next static frame when all animations are complete/cancelled
     Promise.all(document.getAnimations().map((animation) => animation.finished))
       .then(() => {
-        console.log("Animations completed for frame " + frameIndex.toString());
+        console.log(
+          "Animations completed for frame " + frameIndexRef.current.toString()
+        );
       })
       .catch((err) => {
-        console.log("Some animations failed to complete.");
+        console.log("Some animations failed to complete: " + err.message);
       })
       .finally(() => {
-        setFrameIndex((idx) => idx + 1);
+        setFrameIndex(frameIndexRef.current + 1);
         setCurrFrame(nextFrame);
-        if (isAuto) {
-          setJsonIndex((idx) => idx + stepSize);
+        if (ws.current === null || ws.current.readyState >= 2) {
+          return;
         }
+        ws.current.send(JSON.stringify({ request: "Next event" }));
       });
-  }, [jsonIndex]);
+  };
+
+  useEffect(() => {
+    ws.current = new WebSocket(wsUrl);
+    ws.current.onopen = (_event) => {
+      if (ws.current === null || ws.current.readyState >= 2) {
+        return;
+      }
+      ws.current.send(JSON.stringify({ topic: topic }));
+    };
+    ws.current.onmessage = (_event) => {
+      if (ws.current === null || ws.current.readyState >= 2) {
+        return;
+      }
+      ws.current.onmessage = msgListener;
+      ws.current.send(JSON.stringify({ request: "Next event" }));
+    };
+
+    // Cleanup listeners and close websocket on de-render
+    return () => {
+      if (ws.current === null || ws.current.readyState >= 2) {
+        return;
+      }
+      ws.current.removeEventListener("message", msgListener);
+      ws.current.onclose = (_event) => console.log("Websocket closed.");
+      ws.current.close();
+    };
+  }, []);
 
   // Ensures data is updated even though animation is not played when tab is hidden/minimized
   useVisibilityListener();
   // Ensures images are rendered properly when window is resized
   useWindowSizeListener();
 
-  return { currFrame, frameIndex, setIsAuto, setJsonIndex };
+  return { currFrame, frameIndex };
 }
