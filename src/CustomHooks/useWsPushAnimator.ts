@@ -36,7 +36,7 @@ export function useWsPushAnimator(
 
   const ws = useRef<WebSocket | null>(null);
   // For storing data received from websocket but not processed yet
-  const backlogQueue = useRef<RawTrainInfo[][]>([]);
+  const backlogQueue = useRef<RawTrainInfo[]>([]);
   const isCaughtUp = useRef(true);
 
   // Custom event to trigger animation functions
@@ -45,7 +45,7 @@ export function useWsPushAnimator(
   // Listener to handle data from websocket messages
   const msgListener = (event: MessageEvent) => {
     console.log("Received " + (event.data as string));
-    backlogQueue.current.push(
+    backlogQueue.current = backlogQueue.current.concat(
       JSON.parse(event.data as string) as RawTrainInfo[]
     );
     if (isCaughtUp.current) {
@@ -61,7 +61,8 @@ export function useWsPushAnimator(
       return;
     }
     // Process new data: remove dupicate/outdated info for same train, keep most recent one only
-    let nextFrame: RawTrainInfo[] = backlogQueue.current.shift()!;
+    let nextFrame: RawTrainInfo[] = backlogQueue.current;
+    backlogQueue.current = [];
     nextFrame = getUniqueListBy(nextFrame, ["train_id"]);
 
     // If tab is hidden, do not start animations, only process static frames and continue
