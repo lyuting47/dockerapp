@@ -82,5 +82,5 @@ export const logoutRequest: Partial<EndSessionRequest> = {
  * URL of the API this app will call
  */
 export const apiConfig = {
-  apiEndpoint: process.env.REACT_APP_API_ENDPOINT,
+  apiEndpoint: process.env.REACT_APP_API_ENDPOINT!,
 };
