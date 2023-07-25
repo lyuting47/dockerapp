@@ -82,6 +82,5 @@ export const logoutRequest: Partial<EndSessionRequest> = {
  * URL of the API this app will call
  */
 export const apiConfig = {
-  apiEndpoint:
-    "https://c3-api.lemonforest-65dc29d4.southeastasia.azurecontainerapps.io/api/users/",
+  apiEndpoint: process.env.REACT_APP_API_ENDPOINT,
 };
