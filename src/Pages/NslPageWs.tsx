@@ -11,19 +11,22 @@ import { EwlSvg } from "../Components/Animation/ewlSvg";
 import { NslSvg } from "../Components/Animation/nslSvg";
 import { useWsPushAnimator } from "../CustomHooks/useWsPushAnimator";
 
-const animationDuration = 1000;
+const WS_URL =
+  "wss://kafka-backend.lemonforest-65dc29d4.southeastasia.azurecontainerapps.io";
+const TOPIC = "NSL";
+const ANIMATION_DURATION = 1000;
 
 export function NslPageWs(props: { provider: AuthProvider }) {
   const { currFrame, frameIndex } = useWsPushAnimator(
-    "wss://kafka-backend.lemonforest-65dc29d4.southeastasia.azurecontainerapps.io",
-    "NSL",
-    animationDuration
+    WS_URL,
+    TOPIC,
+    ANIMATION_DURATION
   );
   const [isMapRendered, setIsMapRendered] = useState(false);
 
   return (
     <MsalAuthenticationTemplate
-      interactionType={InteractionType.Silent}
+      interactionType={InteractionType.Redirect}
       authenticationRequest={loginRequest}
       loadingComponent={() => <h1 className="card-title">Loading...</h1>}
       errorComponent={() => <AuthErrorFallback provider={props.provider} />}

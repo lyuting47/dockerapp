@@ -31,23 +31,23 @@ sampleNslData = sampleNslData.flatMap((train) => {
 });
 */
 
-const initialSize = 50;
-const stepSize = 10;
-const animationDuration = 1000;
+const INITIAL_SIZE = 50;
+const STEP_SIZE = 10;
+const ANIMATION_DURATION = 1000;
 
 export function EwlPage(props: { provider: AuthProvider }) {
   const { currFrame, frameIndex, setIsAuto, setJsonIndex } = useMockAnimator(
     sampleEwlData,
-    initialSize,
-    stepSize,
-    animationDuration
+    INITIAL_SIZE,
+    STEP_SIZE,
+    ANIMATION_DURATION
   );
   const [isMapRendered, setIsMapRendered] = useState(false);
   useWindowSizeListener();
 
   return (
     <MsalAuthenticationTemplate
-      interactionType={InteractionType.Silent}
+      interactionType={InteractionType.Redirect}
       authenticationRequest={loginRequest}
       loadingComponent={() => <h1 className="card-title">Loading...</h1>}
       errorComponent={() => <AuthErrorFallback provider={props.provider} />}
@@ -65,7 +65,7 @@ export function EwlPage(props: { provider: AuthProvider }) {
             onClick={(e) => {
               e.preventDefault();
               // Simulate new incoming data
-              setJsonIndex((idx) => idx + stepSize);
+              setJsonIndex((idx) => idx + STEP_SIZE);
             }}
           >
             Next

@@ -7,8 +7,7 @@ const AuthErrorFallback = (props: { provider: AuthProvider }) => {
     <header className="App-header">
       <div role="alert">
         <pre style={{ color: "red" }}>
-          There are either no active accounts or more than one. Please log in
-          manually.
+          Something went wrong while trying to log you in. Please try again.
         </pre>
         <LoginButton provider={props.provider} />
       </div>

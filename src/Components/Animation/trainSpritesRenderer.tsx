@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { TrainSvg } from "./trainSvg";
 import { RawTrainInfo } from "../../RawTrainInfo";
 import {
-  locationWidth,
-  locationHeight,
-  trainHeight,
-  trainWidth,
+  LOCATION_WIDTH,
+  LOCATION_HEIGHT,
+  TRAIN_HEIGHT,
+  TRAIN_WIDTH,
 } from "./animationConstants";
 import { TrainDesc } from "./trainDesc";
 
@@ -57,12 +57,12 @@ export function TrainSpritesRenderer(props: {
               left: `${
                 location.getBoundingClientRect().x +
                 window.scrollX -
-                (trainWidth - locationWidth) / 2
+                (TRAIN_WIDTH - LOCATION_WIDTH) / 2
               }px`,
               top: `${
                 location.getBoundingClientRect().y +
                 window.scrollY -
-                (trainHeight - locationHeight) / 2
+                (TRAIN_HEIGHT - LOCATION_HEIGHT) / 2
               }px`,
               rotate: location.getAttribute("data-angle") ?? "0deg",
               backgroundColor:

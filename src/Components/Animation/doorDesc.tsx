@@ -1,6 +1,10 @@
 import React from "react";
 import { RawTrainInfo } from "../../RawTrainInfo";
-import { locationWidth, trainWidth, trainHeight } from "./animationConstants";
+import {
+  LOCATION_WIDTH,
+  TRAIN_WIDTH,
+  TRAIN_HEIGHT,
+} from "./animationConstants";
 
 export function DoorDesc(props: { train: RawTrainInfo }) {
   if (props.train.platform_code === null) {
@@ -25,14 +29,14 @@ export function DoorDesc(props: { train: RawTrainInfo }) {
       className="DoorDesc"
       id={`door_${props.train.station_code}_${props.train.platform_code}`}
       style={{
-        width: trainWidth,
+        width: TRAIN_WIDTH,
         left: `${
           location.getBoundingClientRect().x +
           window.scrollX -
-          (trainWidth - locationWidth) / 2
+          (TRAIN_WIDTH - LOCATION_WIDTH) / 2
         }px`,
         top: `${
-          location.getBoundingClientRect().y + window.scrollY - 2 * trainHeight
+          location.getBoundingClientRect().y + window.scrollY - 2 * TRAIN_HEIGHT
         }px`,
       }}
     >

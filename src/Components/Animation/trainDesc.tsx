@@ -1,10 +1,10 @@
 import React from "react";
 import { RawTrainInfo } from "../../RawTrainInfo";
 import {
-  locationWidth,
-  locationHeight,
-  trainWidth,
-  trainHeight,
+  LOCATION_WIDTH,
+  LOCATION_HEIGHT,
+  TRAIN_WIDTH,
+  TRAIN_HEIGHT,
 } from "./animationConstants";
 
 export function TrainDesc(props: { train: RawTrainInfo }) {
@@ -29,16 +29,16 @@ export function TrainDesc(props: { train: RawTrainInfo }) {
       className="TrainDesc"
       id={`desc_${props.train.train_id}`}
       style={{
-        width: trainWidth,
+        width: TRAIN_WIDTH,
         left: `${
           location.getBoundingClientRect().x +
           window.scrollX -
-          (trainWidth - locationWidth) / 2
+          (TRAIN_WIDTH - LOCATION_WIDTH) / 2
         }px`,
         top: `${
           location.getBoundingClientRect().y +
           window.scrollY +
-          (trainHeight + locationHeight) / 2
+          (TRAIN_HEIGHT + LOCATION_HEIGHT) / 2
         }px`,
       }}
     >

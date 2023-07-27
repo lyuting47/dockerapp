@@ -10,7 +10,7 @@ import AuthErrorFallback from "../Components/authErrorFallback";
 export function CreateUser(props: { provider: AuthProvider }) {
   return (
     <MsalAuthenticationTemplate
-      interactionType={InteractionType.Silent}
+      interactionType={InteractionType.Redirect}
       authenticationRequest={loginRequest}
       loadingComponent={() => <h1 className="card-title">Loading...</h1>}
       errorComponent={() => <AuthErrorFallback provider={props.provider} />}

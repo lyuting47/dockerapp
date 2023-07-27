@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import {
-  locationHeight,
-  locationWidth,
+  LOCATION_HEIGHT,
+  LOCATION_WIDTH,
 } from "../Components/Animation/animationConstants";
 import { RawTrainInfo, getTrainById } from "../RawTrainInfo";
 import { useVisibilityListener } from "./useVisibilityListener";
@@ -124,11 +124,11 @@ export function useMockAnimator(
         const locationLeft =
           locationRect.x +
           window.scrollX -
-          (trainRect.right - trainRect.left - locationWidth) / 2;
+          (trainRect.right - trainRect.left - LOCATION_WIDTH) / 2;
         const locationTop =
           locationRect.y +
           window.scrollY -
-          (trainRect.bottom - trainRect.top - locationHeight) / 2;
+          (trainRect.bottom - trainRect.top - LOCATION_HEIGHT) / 2;
         const durationPerNode = animationDuration / numOfNodes;
         const delay = durationPerNode * i;
 
