@@ -41,6 +41,8 @@ const server = setupServer(
   })
 );
 
+beforeAll(() => server.listen());
+
 beforeEach(() => {
   // New instance of msal tester for each test:
   msalTester = new MsalReactTester("Silent", {
@@ -54,9 +56,6 @@ beforeEach(() => {
 
   // Ask msal-react-tester to handle and mock all msal-react processes:
   msalTester.spyMsal();
-
-  // Start the mock server
-  server.listen();
 });
 
 afterEach(() => {
